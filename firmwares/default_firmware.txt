@@ -1,0 +1,26 @@
+leo
+==================================
+bootloader: 
+rpk2\firmwares\bootloaders\leobootloaderprinter\leobootloaderprinter\Release\leobootloaderprinter.hex
+
+flash:
+rpk2\firmwares\leorfrecver\ArduinoSketch1\ArduinoSketch1\recver\Release\recver.hex
+
+
+
+at90
+==================================
+bootloader:
+rpk2\firmwares\bootloaders\at90bootloaderprinter\at90bootloaderprinter\Release\at90bootloaderprinter.hex
+
+flash:
+rpk2\firmwares\at90masskeyboardfatfs\at90masskeyboardfatfs\Release\at90masskeyboardfatfs.hex
+
+
+
+adafruit feather 32u4
+==================================
+bootloader: default (for Arduino IDE)
+
+flash:
+rpk2\firmwares\adafruit_feather_32u4\adafruit_feather_32u4_rf_sender\adafruit_feather_32u4_rf_sender.ino.with_bootloader.feather32u4.hex

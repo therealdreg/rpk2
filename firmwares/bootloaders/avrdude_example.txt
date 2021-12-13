@@ -1,0 +1,8 @@
+wmic path Win32_SerialPort get /value
+
+wmic path Win32_SerialPort  where "PNPDeviceID like '%6969%'" get /value
+
+
+"C:\arduino\hardware\tools\avr\bin\avrdude.exe" -v -v -v -C "C:\arduino\hardware\tools\avr\etc\avrdude.conf" -c AVR109 -p at90usb1287 -P COM16 -U flash:w:"at90blink.hex":i -v -v
+
+"C:\arduino\hardware\tools\avr\bin\avrdude.exe" -v -v -v -C "C:\arduino\hardware\tools\avr\etc\avrdude.conf" -c AVR109 -p atmega32u4 -P COM16 -U flash:w:"leoblink.hex":i -v -v

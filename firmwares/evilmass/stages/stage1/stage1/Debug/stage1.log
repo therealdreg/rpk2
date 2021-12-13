@@ -1,0 +1,28 @@
+﻿Build started 2021-10-16 19:03:56.
+     1>Project "C:\Users\Dreg\Desktop\rpt2\evilmass\stages\stage1\stage1\stage1.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /sdl /Od /Oy- /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\com\com.c main.c
+         main.c
+     1>c:\users\dreg\desktop\rpt2\evilmass\stages\stage1\stage1\main.c(42): warning C4100: 'lpParameter' : unreferenced formal parameter
+     1>c:\users\dreg\desktop\rpt2\evilmass\stages\stage1\stage1\main.c(131): warning C4127: conditional expression is constant
+     1>c:\users\dreg\desktop\rpt2\evilmass\stages\stage1\stage1\main.c(150): warning C4127: conditional expression is constant
+     1>c:\users\dreg\desktop\rpt2\evilmass\stages\stage1\stage1\main.c(165): warning C4127: conditional expression is constant
+     1>c:\users\dreg\desktop\rpt2\evilmass\stages\stage1\stage1\main.c(49): warning C4100: 'argv' : unreferenced formal parameter
+     1>c:\users\dreg\desktop\rpt2\evilmass\stages\stage1\stage1\main.c(49): warning C4100: 'argc' : unreferenced formal parameter
+     1>c:\users\dreg\desktop\rpt2\evilmass\stages\stage1\stage1\main.c(59): warning C4189: 'hMutexHandle' : local variable is initialized but not referenced
+         com.c
+         Generating Code...
+     1>c:\users\dreg\desktop\rpt2\evilmass\stages\com\com.c(231): warning C4706: assignment within conditional expression
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dreg\Desktop\rpt2\evilmass\stages\stage1\Debug\stage1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Dreg\Desktop\rpt2\evilmass\stages\stage1\Debug\stage1.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dreg\Desktop\rpt2\evilmass\stages\stage1\Debug\stage1.lib" /MACHINE:X86 Debug\com.obj
+         Debug\main.obj
+         stage1.vcxproj -> C:\Users\Dreg\Desktop\rpt2\evilmass\stages\stage1\Debug\stage1.exe
+       PostBuildEvent:
+         copy /b/v/y ..\Debug\stage1.exe ..\..\..\sdtools\
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\Dreg\Desktop\rpt2\evilmass\stages\stage1\stage1\stage1.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.84

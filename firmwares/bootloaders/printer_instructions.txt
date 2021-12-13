@@ -1,0 +1,3 @@
+wmic path Win32_printer where "Caption like '%ext%'" get /value
+
+notepad /pt "leoblink.hex" "Generic / Text Only"

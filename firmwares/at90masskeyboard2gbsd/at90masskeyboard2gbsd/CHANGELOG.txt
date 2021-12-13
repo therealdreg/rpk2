@@ -1,0 +1,46 @@
+/*
+MIT License - Copyright 2021
+-
+David Reguera Garcia aka Dreg - dreg@fr33project.org
+-
+http://www.rootkit.es/
+http://github.com/David-Reguera-Garcia-Dreg/therealdreg
+http://www.fr33project.org/
+-
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+
+WARNING! this is a POC, the code is CRAP
+*/
+
+2021-11-21
+==========
+- only official support for Transcend 2gb micro SD. Dont support (yet) SDHC and SDXC
+
+- its possible change at runtime VID, PID, Serial Numbers USB, BOOT SERIAL etc:
+  - changed FLASH descriptors-logic to RAM descriptors-logic. 
+  - hooked LUFA USB_Device_GetInternalSerialDescriptor (DeviceStandardReq.c) -> RANDOMIZE IN EACH BOOT USB Serial Number. Powershell: Get-CimInstance -ClassName Win32_DiskDrive -Property *  | where{$_.Interfacetype -eq 'USB'} | Select-Object SerialNumber
+
+- modified LUFA code for my own PCB board: 16mhz, buttons, leds etc.
+
+- ported from LUFA_091223 http://www.fourwalledcubicle.com/LUFA.php to lufa-LUFA-170418
+
+- ported from Mathieu Sonet lufa-sdcard-mass-storage-demo USB Mass storage on SD card with a Teensy2/ATMEGA32U4 https://bitbucket.org/elasticsheep/lufa-sdcard-mass-storage-demo/src/default/ to my own at90usb1287 16mhz board
+
+- ported from http://www.roland-riegel.de/sd-reader/index.html MMC/SD/SDHC card reader library to my own lib
+
+AUTHORS: 
+  - Dreg

@@ -1,0 +1,111 @@
+at90bootloaderdfu // USING ATMEL DFU values
+VID 0x03EB
+PID 0x2FFB
+
+at90bootloadercdcavr109dude
+PID 0x6969
+VID 0x9696
+
+at90bootloaderprinter
+PID 0x6969
+VID 0x9695
+
+at90bootloadermsc
+PID 0x6969
+VID 0x9694
+
+at90bootloaderhid
+VID 0x6969
+PID 0x9693
+
+leobootloaderhid
+VID 0x6969
+PID 0x9692
+
+leobootloadercdcavr109dude
+VID 0x6969
+PID 0x9691
+
+leobootloaderdfu // USING ATMEL DFU values
+VID 0x03EB
+PID 0x2FF4
+
+leobootloadermsc 
+VID 0x6969
+PID 0x9690
+
+leobootloaderprinter
+VID 0x6969
+PID 0x9689
+
+leobootloaderarduino // USING ARDUINO values
+VID 0x2341
+PID 0x0036
+
+at90masskeyboardvirtualserialfatfs
+VID 0x6969
+PID 0x3333
+
+at90masskeyboardvirtualserial2gbsd
+VID 0x6969
+PID 0x3334
+
+at90masskeyboardfatfs
+VID 0x6969
+PID 0x3335
+
+at90masskeyboard2gbsd
+VID 0x6969
+PID 0x3336
+
+evilmass
+VID 0x6969
+PIDs random from 0x0001 to 0x0101
+
+at90audioinput
+VID 0x6969
+PID 0x2220
+
+at90audiooutput
+VID 0x6969
+PID 0x2221
+
+at90dualmidi
+VID 0x6969
+PID 0x2222
+
+at90dualvirtualserial
+VID 0x6969
+PID 0x2223
+
+at90generichid
+VID 0x6969
+PID 0x2224
+
+at90keyboardmouse
+VID 0x6969
+PID 0x2225
+
+at90keyboardmousenomulti
+VID 0x6969
+PID 0x2226
+
+at90keyboard
+VID 0x6969
+PID 0x2227
+
+at90midi
+VID 0x6969
+PID 0x2228
+
+at90mouse
+VID 0x6969
+PID 0x2229
+
+at90ethernet
+VID 0x6969
+PID 0x5550
+
+at90virtualserial
+VID 0x6969
+PID 0x5551

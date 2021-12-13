@@ -1,0 +1,5 @@
+wmic path CIM_LogicalDevice where "DeviceID like '%6969%' and DeviceID like '%HID%'" get /value
+
+python hid_bootloader_cli_python.py at90usb1287 at90blink.hex
+
+python hid_bootloader_cli_python.py atmega32u4 leoblink.hex

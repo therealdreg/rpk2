@@ -1,0 +1,17 @@
+add to your ENV PATH the AVR toolchain: 
+
+C:\arduino\hardware\tools\avr\bin
+or/and
+C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin
+
+install cygwin
+
+install make in cygwin
+
+execute ./compile.sh in cygwin
+
+
+
+
+
+

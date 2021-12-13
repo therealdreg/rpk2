@@ -1,0 +1,1230 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                              C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o (main)
+C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                              Sketch.o (_ZN5Print5printEPKc)
+C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o) (_ZN10USBDevice_6attachEv)
+C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o) (delay)
+C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+                              Sketch.o (_ZN9Keyboard_5beginEv)
+C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__cxa_pure_virtual)
+C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o) (_Z16CDC_GetInterfacePh)
+C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o) (yield)
+C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o) (_ZN13PluggableUSB_12getInterfaceEPh)
+C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o) (_ZN4HID_16AppendDescriptorEP16HIDSubDescriptor)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__subsf3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__ltsf2)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__divsf3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__fixunssfsi)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__floatunsisf)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o) (__fp_cmp)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_inf)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_nan)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscA)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscB)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__fp_round)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_split3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_zero)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__gtsf2)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__mulsf3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__unordsf2)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__udivmodsi4)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                              C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o (exit)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                              Sketch.o (__do_copy_data)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o) (__do_clear_bss)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o) (__do_global_ctors)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o) (__tablejump2__)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+                              C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(abi.o) (abort)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
+ .text          0x00000000        0x0 Sketch.o
+ .data          0x00000000        0x0 Sketch.o
+ .bss           0x00000000        0x0 Sketch.o
+ .text          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .data          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .bss           0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .text.atexit   0x00000000        0x6 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .text._Z8setupUSBv
+                0x00000000        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .group         0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .data          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .bss           0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5writeEPKhj
+                0x00000000       0x54 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x00000000       0x48 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printERK6String
+                0x00000000       0x1c C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEc
+                0x00000000        0xe C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printERK9Printable
+                0x00000000       0x14 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .rodata.str1.1
+                0x00000000        0xf C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEv
+                0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x00000000       0x24 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnERK6String
+                0x00000000       0x24 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEPKc
+                0x00000000       0x24 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEc
+                0x00000000       0x24 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnERK9Printable
+                0x00000000       0x24 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print11printNumberEmh
+                0x00000000       0x92 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEmi
+                0x00000000       0x1a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEhi
+                0x00000000        0xe C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEhi
+                0x00000000       0x24 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEji
+                0x00000000        0xc C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEji
+                0x00000000       0x24 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEmi
+                0x00000000       0x24 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEli
+                0x00000000       0x90 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEii
+                0x00000000        0xe C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEii
+                0x00000000       0x24 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEli
+                0x00000000       0x24 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print10printFloatEdh
+                0x00000000      0x1b6 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEdi
+                0x00000000        0x4 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEdi
+                0x00000000       0x24 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .rodata._ZTV5Print
+                0x00000000        0xc C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .data          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .bss           0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text._Z19USBGetConfigurationv
+                0x00000000        0x6 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text._Z12USBConnectedv
+                0x00000000       0x22 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text._ZN10USBDevice_C2Ev
+                0x00000000        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text._ZN10USBDevice_6detachEv
+                0x00000000        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text._ZN10USBDevice_10configuredEv
+                0x00000000        0xe C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text._ZN10USBDevice_4pollEv
+                0x00000000        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text._ZN10USBDevice_10wakeupHostEv
+                0x00000000       0x38 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text._ZN10USBDevice_11isSuspendedEv
+                0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .data          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .bss           0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .text.millis   0x00000000       0x18 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .text.delayMicroseconds
+                0x00000000       0x16 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .group         0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .group         0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .group         0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .text          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .data          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .bss           0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .text._ZN5Print17availableForWriteEv
+                0x00000000        0x6 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .text._ZN5Print5flushEv
+                0x00000000        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .text._ZN9Keyboard_3endEv
+                0x00000000        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .text._ZN9Keyboard_10releaseAllEv
+                0x00000000       0x1a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .text          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .data          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .bss           0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .text.__cxa_pure_virtual
+                0x00000000        0x4 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .text.__cxa_deleted_virtual
+                0x00000000        0x4 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_info    0x00000000       0x76 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_abbrev  0x00000000       0x6d C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_aranges
+                0x00000000       0x20 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_ranges  0x00000000       0x10 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_line    0x00000000       0xa9 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_str     0x00000000      0x1a3 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .comment       0x00000000       0x31 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_frame   0x00000000       0x34 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .group         0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .group         0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .group         0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .data          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .bss           0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text._ZN5Print17availableForWriteEv
+                0x00000000        0x6 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text._ZN5Print5flushEv
+                0x00000000        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text._ZN7Serial_5beginEm
+                0x00000000        0xc C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text._ZN7Serial_5beginEmh
+                0x00000000        0xc C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text._ZN7Serial_3endEv
+                0x00000000        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text._ZN7Serial_cvbEv
+                0x00000000       0x1e C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text._ZN7Serial_4baudEv
+                0x00000000       0x18 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text._ZN7Serial_8stopbitsEv
+                0x00000000        0x6 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text._ZN7Serial_10paritytypeEv
+                0x00000000        0x6 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text._ZN7Serial_7numbitsEv
+                0x00000000        0x6 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text._ZN7Serial_3dtrEv
+                0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text._ZN7Serial_3rtsEv
+                0x00000000        0xa C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text._ZN7Serial_9readBreakEv
+                0x00000000       0x40 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .data          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .bss           0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .text          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .data          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .bss           0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .text._ZN13PluggableUSB_C2Ev
+                0x00000000       0x10 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .group         0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+ .group         0x00000000        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+ .text          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+ .data          0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+ .bss           0x00000000        0x0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+ .text._ZN18PluggableUSBModule12getShortNameEPc
+                0x00000000        0xe C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+ .text._ZN4HID_5beginEv
+                0x00000000        0x6 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text.avr-libc.fplib
+                0x00000000       0xcc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text.avr-libc.fplib
+                0x00000000        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text.avr-libc.fplib
+                0x00000000       0xdc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text.avr-libc.fplib
+                0x00000000       0x5e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text.avr-libc.fplib
+                0x00000000       0x7a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .text.avr-libc.fplib
+                0x00000000       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text.avr-libc.fplib
+                0x00000000        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text.avr-libc.fplib
+                0x00000000        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text.avr-libc.fplib
+                0x00000000       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text.avr-libc.fplib
+                0x00000000       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text.avr-libc.fplib
+                0x00000000        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text.avr-libc.fplib
+                0x00000000       0xd2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x00000000       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+ .text.avr-libc
+                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00008000         xr
+data             0x00800100         0x00000a00         rw !x
+eeprom           0x00810000         0x00000400         rw !x
+fuse             0x00820000         0x00000003         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
+LOAD Sketch.o
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+LOAD C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a
+END GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5\libatmega32u4.a
+END GROUP
+                0x00000000                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x00800100]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x00008000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x00000a00]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x00000400]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x163a
+ *(.vectors)
+ .vectors       0x00000000       0xac C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x000000ac                . = ALIGN (0x2)
+                0x000000ac                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000ac        0x0 linker stubs
+ *(.trampolines*)
+                0x000000ac                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data.USB_DeviceDescriptorIAD
+                0x000000ac       0x12 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x000000ac                USB_DeviceDescriptorIAD
+ .progmem.data.STRING_MANUFACTURER
+                0x000000be        0xc C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x000000be                STRING_MANUFACTURER
+ .progmem.data.STRING_PRODUCT
+                0x000000ca       0x11 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x000000ca                STRING_PRODUCT
+ .progmem.data.STRING_LANGUAGE
+                0x000000db        0x4 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x000000db                STRING_LANGUAGE
+ .progmem.data._asciimap
+                0x000000df       0x80 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+                0x000000df                _asciimap
+ .progmem.data._ZL20_hidReportDescriptor
+                0x0000015f       0x2f C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .progmem.data._cdcInterface
+                0x0000018e       0x42 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x0000018e                _cdcInterface
+                0x000001d0                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000001d0                __ctors_start = .
+ *(.ctors)
+ .ctors         0x000001d0        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .ctors         0x000001d2        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x000001d4                __ctors_end = .
+                0x000001d4                __dtors_start = .
+ *(.dtors)
+                0x000001d4                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000001d4        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
+                0x000001d4                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000001d4        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000001e0       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                0x000001e0                __do_copy_data
+ .init4         0x000001f6       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                0x000001f6                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x00000206       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+                0x00000206                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000021c        0x8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
+ *(.init9)
+ *(.text)
+ .text          0x00000224        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
+                0x00000224                __vector_38
+                0x00000224                __vector_22
+                0x00000224                __vector_28
+                0x00000224                __vector_1
+                0x00000224                __vector_32
+                0x00000224                __vector_34
+                0x00000224                __vector_24
+                0x00000224                __vector_12
+                0x00000224                __bad_interrupt
+                0x00000224                __vector_6
+                0x00000224                __vector_31
+                0x00000224                __vector_35
+                0x00000224                __vector_39
+                0x00000224                __vector_3
+                0x00000224                __vector_30
+                0x00000224                __vector_25
+                0x00000224                __vector_13
+                0x00000224                __vector_17
+                0x00000224                __vector_19
+                0x00000224                __vector_7
+                0x00000224                __vector_41
+                0x00000224                __vector_27
+                0x00000224                __vector_5
+                0x00000224                __vector_33
+                0x00000224                __vector_37
+                0x00000224                __vector_4
+                0x00000224                __vector_9
+                0x00000224                __vector_2
+                0x00000224                __vector_21
+                0x00000224                __vector_15
+                0x00000224                __vector_36
+                0x00000224                __vector_29
+                0x00000224                __vector_40
+                0x00000224                __vector_8
+                0x00000224                __vector_26
+                0x00000224                __vector_14
+                0x00000224                __vector_16
+                0x00000224                __vector_18
+                0x00000224                __vector_20
+                0x00000224                __vector_42
+                0x00000228                . = ALIGN (0x2)
+ *(.text.*)
+ .text.setup    0x00000228       0x34 Sketch.o
+                0x00000228                setup
+ .text.loop     0x0000025c       0x2a Sketch.o
+                0x0000025c                loop
+ .text.initVariant
+                0x00000286        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00000286                initVariant
+ .text.startup.main
+                0x00000288       0x26 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00000288                main
+ .text._ZN5Print17availableForWriteEv
+                0x000002ae        0x6 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000002ae                _ZN5Print17availableForWriteEv
+ .text._ZN5Print5flushEv
+                0x000002b4        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000002b4                _ZN5Print5flushEv
+ .text._ZN5Print5writeEPKc
+                0x000002b6       0x2a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000002b6                _ZN5Print5writeEPKc
+ .text._ZN5Print5printEPKc
+                0x000002e0        0x4 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000002e0                _ZN5Print5printEPKc
+ .text._ZL4RecvPVhh
+                0x000002e4       0x1a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text._ZL11SendControlh
+                0x000002fe       0x5c C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text._ZL24USB_SendStringDescriptorPKhhh
+                0x0000035a       0x6a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text._ZL15USB_ClockEnablev
+                0x000003c4       0x46 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text._ZL14SendInterfacesv
+                0x0000040a       0x2c C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text._ZN6LockEPC2Eh
+                0x00000436       0x10 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000436                _ZN6LockEPC2Eh
+                0x00000436                _ZN6LockEPC1Eh
+ .text._Z13USB_Availableh
+                0x00000446       0x24 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000446                _Z13USB_Availableh
+ .text._Z8USB_RecvhPvi
+                0x0000046a       0x86 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0000046a                _Z8USB_RecvhPvi
+ .text._Z8USB_Recvh
+                0x000004f0       0x2e C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x000004f0                _Z8USB_Recvh
+ .text._Z13USB_SendSpaceh
+                0x0000051e       0x34 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0000051e                _Z13USB_SendSpaceh
+ .text._Z8USB_SendhPKvi
+                0x00000552      0x14a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000552                _Z8USB_SendhPKvi
+ .text._Z11InitControli
+                0x0000069c       0x16 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0000069c                _Z11InitControli
+ .text._Z15USB_SendControlhPKvi
+                0x000006b2       0x4e C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x000006b2                _Z15USB_SendControlhPKvi
+ .text._Z15USB_RecvControlPvi
+                0x00000700       0x66 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000700                _Z15USB_RecvControlPvi
+ .text.__vector_11
+                0x00000766      0x2b4 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000766                __vector_11
+ .text._Z9USB_Flushh
+                0x00000a1a       0x14 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000a1a                _Z9USB_Flushh
+ .text.__vector_10
+                0x00000a2e      0x102 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000a2e                __vector_10
+ .text._ZN10USBDevice_6attachEv
+                0x00000b30       0x26 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000b30                _ZN10USBDevice_6attachEv
+ .text.__vector_23
+                0x00000b56       0x94 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00000b56                __vector_23
+ .text.micros   0x00000bea       0x4a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00000bea                micros
+ .text.delay    0x00000c34       0x78 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00000c34                delay
+ .text.init     0x00000cac       0xac C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00000cac                init
+ .text._ZN9Keyboard_5writeEPKhj
+                0x00000d58       0x58 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+                0x00000d58                _ZN9Keyboard_5writeEPKhj
+ .text._ZN9Keyboard_C2Ev
+                0x00000db0       0x48 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+                0x00000db0                _ZN9Keyboard_C1Ev
+                0x00000db0                _ZN9Keyboard_C2Ev
+ .text._ZN9Keyboard_5beginEv
+                0x00000df8        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+                0x00000df8                _ZN9Keyboard_5beginEv
+ .text._ZN9Keyboard_10sendReportEP9KeyReport
+                0x00000dfa       0x1a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+                0x00000dfa                _ZN9Keyboard_10sendReportEP9KeyReport
+ .text._ZN9Keyboard_5pressEh
+                0x00000e14       0xd4 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+                0x00000e14                _ZN9Keyboard_5pressEh
+ .text._ZN9Keyboard_7releaseEh
+                0x00000ee8       0x84 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+                0x00000ee8                _ZN9Keyboard_7releaseEh
+ .text._ZN9Keyboard_5writeEh
+                0x00000f6c       0x2c C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+                0x00000f6c                _ZN9Keyboard_5writeEh
+ .text.startup._GLOBAL__sub_I__ZN9Keyboard_C2Ev
+                0x00000f98        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .text._ZN7Serial_5writeEh
+                0x00000fa0       0x2c C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00000fa0                _ZN7Serial_5writeEh
+ .text._ZN7Serial_4peekEv
+                0x00000fcc       0x22 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00000fcc                _ZN7Serial_4peekEv
+ .text._ZN7Serial_17availableForWriteEv
+                0x00000fee        0xa C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00000fee                _ZN7Serial_17availableForWriteEv
+ .text._ZN7Serial_5flushEv
+                0x00000ff8        0x6 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00000ff8                _ZN7Serial_5flushEv
+ .text._ZN7Serial_9availableEv
+                0x00000ffe       0x20 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00000ffe                _ZN7Serial_9availableEv
+ .text._ZN7Serial_4readEv
+                0x0000101e       0x1a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x0000101e                _ZN7Serial_4readEv
+ .text._ZN7Serial_5writeEPKhj
+                0x00001038       0x2c C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00001038                _ZN7Serial_5writeEPKhj
+ .text._Z16isLUFAbootloaderv
+                0x00001064       0x14 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00001064                _Z16isLUFAbootloaderv
+ .text._Z16CDC_GetInterfacePh
+                0x00001078       0x16 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00001078                _Z16CDC_GetInterfacePh
+ .text._Z9CDC_SetupR8USBSetup
+                0x0000108e      0x11c C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x0000108e                _Z9CDC_SetupR8USBSetup
+ .text.startup._GLOBAL__sub_I__cdcInterface
+                0x000011aa       0x2a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text.__empty  0x000011d4        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                0x000011d4                yield
+ .text._ZN13PluggableUSB_12getInterfaceEPh
+                0x000011d6       0x52 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x000011d6                _ZN13PluggableUSB_12getInterfaceEPh
+ .text._ZN13PluggableUSB_13getDescriptorER8USBSetup
+                0x00001228       0x3e C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x00001228                _ZN13PluggableUSB_13getDescriptorER8USBSetup
+ .text._ZN13PluggableUSB_12getShortNameEPc
+                0x00001266       0x3e C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x00001266                _ZN13PluggableUSB_12getShortNameEPc
+ .text._ZN13PluggableUSB_5setupER8USBSetup
+                0x000012a4       0x3c C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x000012a4                _ZN13PluggableUSB_5setupER8USBSetup
+ .text._ZN13PluggableUSB_4plugEP18PluggableUSBModule
+                0x000012e0       0x8e C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x000012e0                _ZN13PluggableUSB_4plugEP18PluggableUSBModule
+ .text._Z12PluggableUSBv
+                0x0000136e       0x28 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x0000136e                _Z12PluggableUSBv
+ .text._ZN4HID_12getShortNameEPc
+                0x00001396       0x38 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+                0x00001396                _ZN4HID_12getShortNameEPc
+ .text._ZN4HID_12getInterfaceEPh
+                0x000013ce       0x90 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+                0x000013ce                _ZN4HID_12getInterfaceEPh
+ .text._ZN4HID_13getDescriptorER8USBSetup
+                0x0000145e       0x80 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+                0x0000145e                _ZN4HID_13getDescriptorER8USBSetup
+ .text._ZN4HID_5setupER8USBSetup
+                0x000014de       0x4e C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+                0x000014de                _ZN4HID_5setupER8USBSetup
+ .text._ZN4HID_16AppendDescriptorEP16HIDSubDescriptor
+                0x0000152c       0x3a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+                0x0000152c                _ZN4HID_16AppendDescriptorEP16HIDSubDescriptor
+ .text._ZN4HID_10SendReportEhPKvi
+                0x00001566       0x68 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+                0x00001566                _ZN4HID_10SendReportEhPKvi
+ .text._ZN4HID_C2Ev
+                0x000015ce       0x40 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+                0x000015ce                _ZN4HID_C1Ev
+                0x000015ce                _ZN4HID_C2Ev
+ .text._Z3HIDv  0x0000160e       0x1c C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+                0x0000160e                _Z3HIDv
+ .text.libgcc   0x0000162a        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x0000162a                __tablejump2__
+                0x00001636                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001636        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x00001636                _exit
+                0x00001636                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001636        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000163a                _etext = .
+
+.data           0x00800100       0x4a load address 0x0000163a
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data._initEndpoints
+                0x00800100        0x7 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00800100                _initEndpoints
+ .data._ZL10breakValue
+                0x00800107        0x4 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .data._ZL12_usbLineInfo
+                0x0080010b        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800113        0xc Sketch.o
+ .rodata._ZTV9Keyboard_
+                0x0080011f        0xc C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+                0x0080011f                _ZTV9Keyboard_
+ .rodata._ZTV7Serial_
+                0x0080012b       0x12 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x0080012b                _ZTV7Serial_
+ .rodata._ZTV4HID_
+                0x0080013d        0xc C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+                0x0080013d                _ZTV4HID_
+ *(.gnu.linkonce.r*)
+                0x0080014a                . = ALIGN (0x2)
+ *fill*         0x00800149        0x1 
+                0x0080014a                _edata = .
+                0x0080014a                PROVIDE (__data_end, .)
+
+.bss            0x0080014a       0xa3
+                0x0080014a                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.USBDevice
+                0x0080014a        0x1 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0080014a                USBDevice
+ .bss._ZL5_cend
+                0x0080014b        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .bss._ZL6_cmark
+                0x0080014d        0x2 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .bss._usbSuspendState
+                0x0080014f        0x1 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0080014f                _usbSuspendState
+ .bss._usbCurrentStatus
+                0x00800150        0x1 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00800150                _usbCurrentStatus
+ .bss._usbConfiguration
+                0x00800151        0x1 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00800151                _usbConfiguration
+ .bss.RxLEDPulse
+                0x00800152        0x1 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00800152                RxLEDPulse
+ .bss.TxLEDPulse
+                0x00800153        0x1 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00800153                TxLEDPulse
+ .bss.timer0_fract
+                0x00800154        0x1 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .bss.timer0_millis
+                0x00800155        0x4 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00800155                timer0_millis
+ .bss.timer0_overflow_count
+                0x00800159        0x4 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00800159                timer0_overflow_count
+ .bss._ZZN9Keyboard_C4EvE4node
+                0x0080015d        0x6 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .bss.Keyboard  0x00800163        0xc C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+                0x00800163                Keyboard
+ .bss._ZGVZN9Keyboard_C4EvE4node
+                0x0080016f        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .bss.Serial    0x00800177       0x50 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00800177                Serial
+ .bss._ZL11wdtcsr_save
+                0x008001c7        0x1 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .bss._ZZ12PluggableUSBvE3obj
+                0x008001c8        0x4 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .bss._ZGVZ12PluggableUSBvE3obj
+                0x008001cc        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .bss._ZZ3HIDvE3obj
+                0x008001d4       0x11 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+ .bss._ZGVZ3HIDvE3obj
+                0x008001e5        0x8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+ *(COMMON)
+                0x008001ed                PROVIDE (__bss_end, .)
+                0x0000163a                __data_load_start = LOADADDR (.data)
+                0x00001684                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008001ed        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x008001ed                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 Sketch.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .comment       0x00000030       0x31 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .comment       0x00000030       0x31 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .comment       0x00000030       0x31 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .comment       0x00000030       0x31 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .comment       0x00000030       0x31 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .comment       0x00000030       0x31 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .comment       0x00000030       0x31 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .comment       0x00000030       0x31 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x4a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 Sketch.o
+ .debug_aranges
+                0x00000028       0x30 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_aranges
+                0x00000058      0x100 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_aranges
+                0x00000158       0xe0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_aranges
+                0x00000238       0x48 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_aranges
+                0x00000280       0x70 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .debug_aranges
+                0x000002f0       0xd8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_aranges
+                0x000003c8       0x20 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_aranges
+                0x000003e8       0x50 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_aranges
+                0x00000438       0x68 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xa1e9
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x9f4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
+ .debug_info    0x000009f4      0x356 Sketch.o
+ .debug_info    0x00000d4a      0x35a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_info    0x000010a4     0x292d C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_info    0x000039d1     0x1a3a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_info    0x0000540b      0x2f9 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_info    0x00005704      0xa9a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .debug_info    0x0000619e     0x29f0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_info    0x00008b8e       0x3e C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_info    0x00008bcc      0x79f C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_info    0x0000936b      0xe7e C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+
+.debug_abbrev   0x00000000     0x2952
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x96a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
+ .debug_abbrev  0x0000096a      0x1be Sketch.o
+ .debug_abbrev  0x00000b28      0x19a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_abbrev  0x00000cc2      0x47a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x0000113c      0x5e0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_abbrev  0x0000171c      0x146 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x00001862      0x44b C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .debug_abbrev  0x00001cad      0x602 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_abbrev  0x000022af       0x2a C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_abbrev  0x000022d9      0x2c5 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_abbrev  0x0000259e      0x3b4 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+
+.debug_line     0x00000000     0x2ad8
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x19a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
+ .debug_line    0x0000019a      0x303 Sketch.o
+ .debug_line    0x0000049d      0x177 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_line    0x00000614      0x685 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_line    0x00000c99      0x9e7 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_line    0x00001680      0x2bd C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_line    0x0000193d      0x46d C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .debug_line    0x00001daa      0x68b C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_line    0x00002435       0x41 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_line    0x00002476      0x2de C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_line    0x00002754      0x384 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+
+.debug_frame    0x00000000      0xdd8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x34 Sketch.o
+ .debug_frame   0x00000034       0x54 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_frame   0x00000088      0x3ac C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_frame   0x00000434      0x3ac C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_frame   0x000007e0       0xc4 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_frame   0x000008a4      0x124 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .debug_frame   0x000009c8      0x1d8 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_frame   0x00000ba0       0x24 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_frame   0x00000bc4       0xec C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_frame   0x00000cb0      0x128 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+
+.debug_str      0x00000000     0x2e9c
+ *(.debug_str)
+ .debug_str     0x00000000      0x371 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
+ .debug_str     0x00000371      0x306 Sketch.o
+                                0x351 (size before relaxing)
+ .debug_str     0x00000677      0x1bb C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                                0x3bb (size before relaxing)
+ .debug_str     0x00000832      0xf3e C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                               0x1247 (size before relaxing)
+ .debug_str     0x00001770      0x865 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                                0xc7b (size before relaxing)
+ .debug_str     0x00001fd5      0x153 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                                0x24f (size before relaxing)
+ .debug_str     0x00002128      0x1c6 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+                                0x5ae (size before relaxing)
+ .debug_str     0x000022ee      0x8f4 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                               0x1a2e (size before relaxing)
+ .debug_str     0x00002be2       0x1c C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                                0x144 (size before relaxing)
+ .debug_str     0x00002bfe       0x47 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                                0x5c0 (size before relaxing)
+ .debug_str     0x00002c45      0x257 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+                                0x945 (size before relaxing)
+
+.debug_loc      0x00000000     0x4aad
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x1c87 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_loc     0x00001c87     0x1277 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_loc     0x00002efe      0x28d C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_loc     0x0000318b      0x60e C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .debug_loc     0x00003799      0x790 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_loc     0x00003f29      0x445 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_loc     0x0000436e      0x73f C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x598
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x18 Sketch.o
+ .debug_ranges  0x00000018       0x20 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_ranges  0x00000038      0x120 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_ranges  0x00000158      0x1c0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_ranges  0x00000318       0x38 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_ranges  0x00000350       0x60 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(Keyboard.o)
+ .debug_ranges  0x000003b0       0xe0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_ranges  0x00000490       0x10 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_ranges  0x000004a0       0x58 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_ranges  0x000004f8       0xa0 C:\Users\xia\Desktop\rpk2\firmwares\leohellowkeyboard\leohellowkeyboard\ArduinoCore\Debug\libArduinoCore.a(HID.o)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(helloworldleo.elf elf32-avr)
+LOAD linker stubs

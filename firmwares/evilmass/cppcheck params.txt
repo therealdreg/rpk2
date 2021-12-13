@@ -1,0 +1,1 @@
+ --addon=cert --addon=misra.json --platform=avr8 --enable="all" --verbose --inline-suppr --inconclusive --template=vs $(ItemPath)

@@ -1,0 +1,23 @@
+﻿Build started 2021-10-22 22:52:06.
+     1>Project "C:\Users\xia\Desktop\rpt2\evilmass\serialogtofiles\serialogtofiles\serialogtofiles.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /sdl /Od /Oy- /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>c:\users\xia\desktop\rpt2\evilmass\serialogtofiles\serialogtofiles\main.c(48): warning C4245: 'initializing' : conversion from 'int' to 'uint32_t', signed/unsigned mismatch
+     1>c:\users\xia\desktop\rpt2\evilmass\serialogtofiles\serialogtofiles\main.c(130): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+     1>c:\users\xia\desktop\rpt2\evilmass\serialogtofiles\serialogtofiles\main.c(131): warning C4133: 'function' : incompatible types - from 'int [5000]' to 'char *'
+     1>c:\users\xia\desktop\rpt2\evilmass\serialogtofiles\serialogtofiles\main.c(133): warning C4133: 'function' : incompatible types - from 'int [5000]' to 'const char *'
+     1>c:\users\xia\desktop\rpt2\evilmass\serialogtofiles\serialogtofiles\main.c(139): warning C4245: '=' : conversion from 'int' to 'uint32_t', signed/unsigned mismatch
+     1>c:\users\xia\desktop\rpt2\evilmass\serialogtofiles\serialogtofiles\main.c(151): warning C4133: 'function' : incompatible types - from 'FILE *' to 'const char *'
+     1>c:\users\xia\desktop\rpt2\evilmass\serialogtofiles\serialogtofiles\main.c(204): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+     1>c:\users\xia\desktop\rpt2\evilmass\serialogtofiles\serialogtofiles\main.c(205): warning C4133: 'function' : incompatible types - from 'int [5000]' to 'char *'
+     1>c:\users\xia\desktop\rpt2\evilmass\serialogtofiles\serialogtofiles\main.c(207): warning C4133: 'function' : incompatible types - from 'int [5000]' to 'const char *'
+     1>c:\users\xia\desktop\rpt2\evilmass\serialogtofiles\serialogtofiles\main.c(267): warning C4133: 'function' : incompatible types - from 'FILE *' to 'const char *'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\xia\Desktop\rpt2\evilmass\serialogtofiles\Debug\serialogtofiles.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\xia\Desktop\rpt2\evilmass\serialogtofiles\Debug\serialogtofiles.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\xia\Desktop\rpt2\evilmass\serialogtofiles\Debug\serialogtofiles.lib" /MACHINE:X86 Debug\main.obj
+         serialogtofiles.vcxproj -> C:\Users\xia\Desktop\rpt2\evilmass\serialogtofiles\Debug\serialogtofiles.exe
+     1>Done Building Project "C:\Users\xia\Desktop\rpt2\evilmass\serialogtofiles\serialogtofiles\serialogtofiles.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.10

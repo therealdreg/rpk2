@@ -1,0 +1,1376 @@
+
+at90extmem.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000358  00800100  0000065c  000006f0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         0000065c  00000000  00000000  00000094  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .bss          00000001  00800458  00800458  00000a48  2**0
+                  ALLOC
+  3 .comment      00000030  00000000  00000000  00000a48  2**0
+                  CONTENTS, READONLY
+  4 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  00000a78  2**2
+                  CONTENTS, READONLY
+  5 .debug_aranges 00000098  00000000  00000000  00000ab8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_info   000018a3  00000000  00000000  00000b50  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_abbrev 00000dd0  00000000  00000000  000023f3  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_line   0000093d  00000000  00000000  000031c3  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_frame  000001a4  00000000  00000000  00003b00  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_str    000006d4  00000000  00000000  00003ca4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_loc    00000723  00000000  00000000  00004378  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges 000000d0  00000000  00000000  00004a9b  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	4b c0       	rjmp	.+150    	; 0x98 <__ctors_end>
+   2:	00 00       	nop
+   4:	66 c0       	rjmp	.+204    	; 0xd2 <__bad_interrupt>
+   6:	00 00       	nop
+   8:	64 c0       	rjmp	.+200    	; 0xd2 <__bad_interrupt>
+   a:	00 00       	nop
+   c:	62 c0       	rjmp	.+196    	; 0xd2 <__bad_interrupt>
+   e:	00 00       	nop
+  10:	60 c0       	rjmp	.+192    	; 0xd2 <__bad_interrupt>
+  12:	00 00       	nop
+  14:	5e c0       	rjmp	.+188    	; 0xd2 <__bad_interrupt>
+  16:	00 00       	nop
+  18:	5c c0       	rjmp	.+184    	; 0xd2 <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	5a c0       	rjmp	.+180    	; 0xd2 <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	58 c0       	rjmp	.+176    	; 0xd2 <__bad_interrupt>
+  22:	00 00       	nop
+  24:	56 c0       	rjmp	.+172    	; 0xd2 <__bad_interrupt>
+  26:	00 00       	nop
+  28:	54 c0       	rjmp	.+168    	; 0xd2 <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	52 c0       	rjmp	.+164    	; 0xd2 <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	50 c0       	rjmp	.+160    	; 0xd2 <__bad_interrupt>
+  32:	00 00       	nop
+  34:	4e c0       	rjmp	.+156    	; 0xd2 <__bad_interrupt>
+  36:	00 00       	nop
+  38:	4c c0       	rjmp	.+152    	; 0xd2 <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	4a c0       	rjmp	.+148    	; 0xd2 <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	48 c0       	rjmp	.+144    	; 0xd2 <__bad_interrupt>
+  42:	00 00       	nop
+  44:	46 c0       	rjmp	.+140    	; 0xd2 <__bad_interrupt>
+  46:	00 00       	nop
+  48:	44 c0       	rjmp	.+136    	; 0xd2 <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	42 c0       	rjmp	.+132    	; 0xd2 <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	40 c0       	rjmp	.+128    	; 0xd2 <__bad_interrupt>
+  52:	00 00       	nop
+  54:	3e c0       	rjmp	.+124    	; 0xd2 <__bad_interrupt>
+  56:	00 00       	nop
+  58:	3c c0       	rjmp	.+120    	; 0xd2 <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	3a c0       	rjmp	.+116    	; 0xd2 <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	38 c0       	rjmp	.+112    	; 0xd2 <__bad_interrupt>
+  62:	00 00       	nop
+  64:	36 c0       	rjmp	.+108    	; 0xd2 <__bad_interrupt>
+  66:	00 00       	nop
+  68:	34 c0       	rjmp	.+104    	; 0xd2 <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	32 c0       	rjmp	.+100    	; 0xd2 <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	30 c0       	rjmp	.+96     	; 0xd2 <__bad_interrupt>
+  72:	00 00       	nop
+  74:	2e c0       	rjmp	.+92     	; 0xd2 <__bad_interrupt>
+  76:	00 00       	nop
+  78:	2c c0       	rjmp	.+88     	; 0xd2 <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	2a c0       	rjmp	.+84     	; 0xd2 <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	28 c0       	rjmp	.+80     	; 0xd2 <__bad_interrupt>
+  82:	00 00       	nop
+  84:	26 c0       	rjmp	.+76     	; 0xd2 <__bad_interrupt>
+  86:	00 00       	nop
+  88:	24 c0       	rjmp	.+72     	; 0xd2 <__bad_interrupt>
+  8a:	00 00       	nop
+  8c:	22 c0       	rjmp	.+68     	; 0xd2 <__bad_interrupt>
+  8e:	00 00       	nop
+  90:	20 c0       	rjmp	.+64     	; 0xd2 <__bad_interrupt>
+  92:	00 00       	nop
+  94:	1e c0       	rjmp	.+60     	; 0xd2 <__bad_interrupt>
+	...
+
+00000098 <__ctors_end>:
+  98:	11 24       	eor	r1, r1
+  9a:	1f be       	out	0x3f, r1	; 63
+  9c:	cf ef       	ldi	r28, 0xFF	; 255
+  9e:	d0 e2       	ldi	r29, 0x20	; 32
+  a0:	de bf       	out	0x3e, r29	; 62
+  a2:	cd bf       	out	0x3d, r28	; 61
+
+000000a4 <__do_copy_data>:
+  a4:	14 e0       	ldi	r17, 0x04	; 4
+  a6:	a0 e0       	ldi	r26, 0x00	; 0
+  a8:	b1 e0       	ldi	r27, 0x01	; 1
+  aa:	ec e5       	ldi	r30, 0x5C	; 92
+  ac:	f6 e0       	ldi	r31, 0x06	; 6
+  ae:	00 e0       	ldi	r16, 0x00	; 0
+  b0:	0b bf       	out	0x3b, r16	; 59
+  b2:	02 c0       	rjmp	.+4      	; 0xb8 <__do_copy_data+0x14>
+  b4:	07 90       	elpm	r0, Z+
+  b6:	0d 92       	st	X+, r0
+  b8:	a8 35       	cpi	r26, 0x58	; 88
+  ba:	b1 07       	cpc	r27, r17
+  bc:	d9 f7       	brne	.-10     	; 0xb4 <__do_copy_data+0x10>
+
+000000be <__do_clear_bss>:
+  be:	24 e0       	ldi	r18, 0x04	; 4
+  c0:	a8 e5       	ldi	r26, 0x58	; 88
+  c2:	b4 e0       	ldi	r27, 0x04	; 4
+  c4:	01 c0       	rjmp	.+2      	; 0xc8 <.do_clear_bss_start>
+
+000000c6 <.do_clear_bss_loop>:
+  c6:	1d 92       	st	X+, r1
+
+000000c8 <.do_clear_bss_start>:
+  c8:	a9 35       	cpi	r26, 0x59	; 89
+  ca:	b2 07       	cpc	r27, r18
+  cc:	e1 f7       	brne	.-8      	; 0xc6 <.do_clear_bss_loop>
+  ce:	31 d2       	rcall	.+1122   	; 0x532 <main>
+  d0:	c3 c2       	rjmp	.+1414   	; 0x658 <_exit>
+
+000000d2 <__bad_interrupt>:
+  d2:	96 cf       	rjmp	.-212    	; 0x0 <__vectors>
+
+000000d4 <init_uart>:
+    {
+        uart_putc(c);
+    }
+    
+    return c;
+}
+  d4:	e9 ec       	ldi	r30, 0xC9	; 201
+  d6:	f0 e0       	ldi	r31, 0x00	; 0
+  d8:	80 81       	ld	r24, Z
+  da:	88 61       	ori	r24, 0x18	; 24
+  dc:	80 83       	st	Z, r24
+  de:	87 e6       	ldi	r24, 0x67	; 103
+  e0:	80 93 cc 00 	sts	0x00CC, r24	; 0x8000cc <__TEXT_REGION_LENGTH__+0x7e00cc>
+  e4:	10 92 cd 00 	sts	0x00CD, r1	; 0x8000cd <__TEXT_REGION_LENGTH__+0x7e00cd>
+  e8:	86 e0       	ldi	r24, 0x06	; 6
+  ea:	80 93 ca 00 	sts	0x00CA, r24	; 0x8000ca <__TEXT_REGION_LENGTH__+0x7e00ca>
+  ee:	08 95       	ret
+
+000000f0 <uart_putc>:
+  f0:	90 91 c8 00 	lds	r25, 0x00C8	; 0x8000c8 <__TEXT_REGION_LENGTH__+0x7e00c8>
+  f4:	95 ff       	sbrs	r25, 5
+  f6:	fc cf       	rjmp	.-8      	; 0xf0 <uart_putc>
+  f8:	80 93 ce 00 	sts	0x00CE, r24	; 0x8000ce <__TEXT_REGION_LENGTH__+0x7e00ce>
+  fc:	08 95       	ret
+
+000000fe <uart_printhexchar>:
+
+
+void uart_printhexchar(uint8_t charprint)
+{
+  fe:	1f 93       	push	r17
+ 100:	cf 93       	push	r28
+ 102:	df 93       	push	r29
+ 104:	cd b7       	in	r28, 0x3d	; 61
+ 106:	de b7       	in	r29, 0x3e	; 62
+ 108:	61 97       	sbiw	r28, 0x11	; 17
+ 10a:	0f b6       	in	r0, 0x3f	; 63
+ 10c:	f8 94       	cli
+ 10e:	de bf       	out	0x3e, r29	; 62
+ 110:	0f be       	out	0x3f, r0	; 63
+ 112:	cd bf       	out	0x3d, r28	; 61
+ 114:	18 2f       	mov	r17, r24
+    const char hex[] = "0123456789ABCDEF";
+ 116:	81 e1       	ldi	r24, 0x11	; 17
+ 118:	e0 e0       	ldi	r30, 0x00	; 0
+ 11a:	f1 e0       	ldi	r31, 0x01	; 1
+ 11c:	de 01       	movw	r26, r28
+ 11e:	11 96       	adiw	r26, 0x01	; 1
+ 120:	01 90       	ld	r0, Z+
+ 122:	0d 92       	st	X+, r0
+ 124:	8a 95       	dec	r24
+ 126:	e1 f7       	brne	.-8      	; 0x120 <uart_printhexchar+0x22>
+
+    uart_putc(hex[(charprint>>4)&0xF]);
+ 128:	81 2f       	mov	r24, r17
+ 12a:	82 95       	swap	r24
+ 12c:	8f 70       	andi	r24, 0x0F	; 15
+ 12e:	e1 e0       	ldi	r30, 0x01	; 1
+ 130:	f0 e0       	ldi	r31, 0x00	; 0
+ 132:	ec 0f       	add	r30, r28
+ 134:	fd 1f       	adc	r31, r29
+ 136:	e8 0f       	add	r30, r24
+ 138:	f1 1d       	adc	r31, r1
+ 13a:	80 81       	ld	r24, Z
+ 13c:	d9 df       	rcall	.-78     	; 0xf0 <uart_putc>
+    uart_putc(hex[(charprint)&0xF]);
+ 13e:	1f 70       	andi	r17, 0x0F	; 15
+ 140:	e1 e0       	ldi	r30, 0x01	; 1
+ 142:	f0 e0       	ldi	r31, 0x00	; 0
+ 144:	ec 0f       	add	r30, r28
+ 146:	fd 1f       	adc	r31, r29
+ 148:	e1 0f       	add	r30, r17
+ 14a:	f1 1d       	adc	r31, r1
+ 14c:	80 81       	ld	r24, Z
+ 14e:	d0 df       	rcall	.-96     	; 0xf0 <uart_putc>
+}
+ 150:	61 96       	adiw	r28, 0x11	; 17
+ 152:	0f b6       	in	r0, 0x3f	; 63
+ 154:	f8 94       	cli
+ 156:	de bf       	out	0x3e, r29	; 62
+ 158:	0f be       	out	0x3f, r0	; 63
+ 15a:	cd bf       	out	0x3d, r28	; 61
+ 15c:	df 91       	pop	r29
+ 15e:	cf 91       	pop	r28
+ 160:	1f 91       	pop	r17
+ 162:	08 95       	ret
+
+00000164 <uart_puts>:
+
+void uart_puts(uint8_t* s)
+{
+ 164:	cf 93       	push	r28
+ 166:	df 93       	push	r29
+ 168:	ec 01       	movw	r28, r24
+	static uint8_t last = 0;
+	
+	while(*s)
+ 16a:	0f c0       	rjmp	.+30     	; 0x18a <uart_puts+0x26>
+	{
+		if ((*s == '\n') && (last != '\r'))
+ 16c:	8a 30       	cpi	r24, 0x0A	; 10
+ 16e:	49 f4       	brne	.+18     	; 0x182 <uart_puts+0x1e>
+ 170:	90 91 58 04 	lds	r25, 0x0458	; 0x800458 <__data_end>
+ 174:	9d 30       	cpi	r25, 0x0D	; 13
+ 176:	29 f0       	breq	.+10     	; 0x182 <uart_puts+0x1e>
+		{
+			uart_putc('\r');
+ 178:	8d e0       	ldi	r24, 0x0D	; 13
+ 17a:	ba df       	rcall	.-140    	; 0xf0 <uart_putc>
+			uart_putc('\n');
+ 17c:	8a e0       	ldi	r24, 0x0A	; 10
+ 17e:	b8 df       	rcall	.-144    	; 0xf0 <uart_putc>
+		}
+		else
+		{
+			uart_putc(*s);
+ 180:	01 c0       	rjmp	.+2      	; 0x184 <uart_puts+0x20>
+ 182:	b6 df       	rcall	.-148    	; 0xf0 <uart_putc>
+		}
+		last = *s;
+ 184:	89 91       	ld	r24, Y+
+ 186:	80 93 58 04 	sts	0x0458, r24	; 0x800458 <__data_end>
+
+void uart_puts(uint8_t* s)
+{
+	static uint8_t last = 0;
+	
+	while(*s)
+ 18a:	88 81       	ld	r24, Y
+ 18c:	81 11       	cpse	r24, r1
+ 18e:	ee cf       	rjmp	.-36     	; 0x16c <uart_puts+0x8>
+			uart_putc(*s);
+		}
+		last = *s;
+		s++;
+	}
+}
+ 190:	df 91       	pop	r29
+ 192:	cf 91       	pop	r28
+ 194:	08 95       	ret
+
+00000196 <uart_putsnl>:
+
+void uart_putsnl(uint8_t* s)
+{
+    uart_puts(s);
+ 196:	e6 df       	rcall	.-52     	; 0x164 <uart_puts>
+    uart_puts("\r\n");
+ 198:	85 e5       	ldi	r24, 0x55	; 85
+ 19a:	94 e0       	ldi	r25, 0x04	; 4
+ 19c:	e3 cf       	rjmp	.-58     	; 0x164 <uart_puts>
+ 19e:	08 95       	ret
+
+000001a0 <uart_printoa>:
+}
+
+
+void uart_printoa(uint32_t number, int base)
+{
+ 1a0:	0f 93       	push	r16
+ 1a2:	1f 93       	push	r17
+ 1a4:	cf 93       	push	r28
+ 1a6:	df 93       	push	r29
+ 1a8:	cd b7       	in	r28, 0x3d	; 61
+ 1aa:	de b7       	in	r29, 0x3e	; 62
+ 1ac:	e2 97       	sbiw	r28, 0x32	; 50
+ 1ae:	0f b6       	in	r0, 0x3f	; 63
+ 1b0:	f8 94       	cli
+ 1b2:	de bf       	out	0x3e, r29	; 62
+ 1b4:	0f be       	out	0x3f, r0	; 63
+ 1b6:	cd bf       	out	0x3d, r28	; 61
+ 1b8:	dc 01       	movw	r26, r24
+ 1ba:	cb 01       	movw	r24, r22
+    char buffer[50] = { 0 };
+ 1bc:	8e 01       	movw	r16, r28
+ 1be:	0f 5f       	subi	r16, 0xFF	; 255
+ 1c0:	1f 4f       	sbci	r17, 0xFF	; 255
+ 1c2:	22 e3       	ldi	r18, 0x32	; 50
+ 1c4:	f8 01       	movw	r30, r16
+ 1c6:	11 92       	st	Z+, r1
+ 1c8:	2a 95       	dec	r18
+ 1ca:	e9 f7       	brne	.-6      	; 0x1c6 <uart_printoa+0x26>
+extern __inline__ __ATTR_GNU_INLINE__
+char *itoa (int __val, char *__s, int __radix)
+{
+    if (!__builtin_constant_p (__radix)) {
+	extern char *__itoa (int, char *, int);
+	return __itoa (__val, __s, __radix);
+ 1cc:	b8 01       	movw	r22, r16
+ 1ce:	07 d2       	rcall	.+1038   	; 0x5de <itoa>
+    
+    itoa(number, buffer, base);
+    
+    uart_puts(buffer);
+ 1d0:	c8 01       	movw	r24, r16
+ 1d2:	c8 df       	rcall	.-112    	; 0x164 <uart_puts>
+}
+ 1d4:	e2 96       	adiw	r28, 0x32	; 50
+ 1d6:	0f b6       	in	r0, 0x3f	; 63
+ 1d8:	f8 94       	cli
+ 1da:	de bf       	out	0x3e, r29	; 62
+ 1dc:	0f be       	out	0x3f, r0	; 63
+ 1de:	cd bf       	out	0x3d, r28	; 61
+ 1e0:	df 91       	pop	r29
+ 1e2:	cf 91       	pop	r28
+ 1e4:	1f 91       	pop	r17
+ 1e6:	0f 91       	pop	r16
+ 1e8:	08 95       	ret
+
+000001ea <uart_printdecint32>:
+
+
+void uart_printdecint32(uint32_t number)
+{
+    uart_printoa(number, 10);
+ 1ea:	4a e0       	ldi	r20, 0x0A	; 10
+ 1ec:	50 e0       	ldi	r21, 0x00	; 0
+ 1ee:	d8 cf       	rjmp	.-80     	; 0x1a0 <uart_printoa>
+ 1f0:	08 95       	ret
+
+000001f2 <set_bank>:
+
+
+
+void set_bank(uint8_t bank) 
+{
+    PORTF = (PORTF & 0xF8) | (bank & 0x7);
+ 1f2:	91 b3       	in	r25, 0x11	; 17
+ 1f4:	98 7f       	andi	r25, 0xF8	; 248
+ 1f6:	87 70       	andi	r24, 0x07	; 7
+ 1f8:	89 2b       	or	r24, r25
+ 1fa:	81 bb       	out	0x11, r24	; 17
+ 1fc:	08 95       	ret
+
+000001fe <zeroed_bank>:
+
+void zeroed_bank(void)
+{
+    char* charptr;
+
+    uart_putsnl("setting all to zero....");
+ 1fe:	81 e1       	ldi	r24, 0x11	; 17
+ 200:	91 e0       	ldi	r25, 0x01	; 1
+ 202:	c9 df       	rcall	.-110    	; 0x196 <uart_putsnl>
+    charptr = (char*) XMEM_START;
+ 204:	e0 e0       	ldi	r30, 0x00	; 0
+ 206:	f2 e2       	ldi	r31, 0x22	; 34
+    while (charptr != 0)
+ 208:	01 c0       	rjmp	.+2      	; 0x20c <zeroed_bank+0xe>
+    {
+        *charptr = 0;
+ 20a:	11 92       	st	Z+, r1
+{
+    char* charptr;
+
+    uart_putsnl("setting all to zero....");
+    charptr = (char*) XMEM_START;
+    while (charptr != 0)
+ 20c:	30 97       	sbiw	r30, 0x00	; 0
+ 20e:	e9 f7       	brne	.-6      	; 0x20a <zeroed_bank+0xc>
+    {
+        *charptr = 0;
+        charptr++;
+    }
+}
+ 210:	08 95       	ret
+
+00000212 <test_zero_bank>:
+
+bool test_zero_bank(void)
+{
+ 212:	cf 93       	push	r28
+ 214:	df 93       	push	r29
+    uart_putsnl("checking if all bank is zero....");
+ 216:	89 e2       	ldi	r24, 0x29	; 41
+ 218:	91 e0       	ldi	r25, 0x01	; 1
+ 21a:	bd df       	rcall	.-134    	; 0x196 <uart_putsnl>
+    uint8_t* charptr = (char*) XMEM_START;
+ 21c:	c0 e0       	ldi	r28, 0x00	; 0
+ 21e:	d2 e2       	ldi	r29, 0x22	; 34
+    while (charptr != 0)
+ 220:	11 c0       	rjmp	.+34     	; 0x244 <test_zero_bank+0x32>
+    {
+        if (0 != *charptr)
+ 222:	88 81       	ld	r24, Y
+ 224:	88 23       	and	r24, r24
+ 226:	69 f0       	breq	.+26     	; 0x242 <test_zero_bank+0x30>
+        {
+            uart_putsnl("error charptr is not zero....");
+ 228:	8a e4       	ldi	r24, 0x4A	; 74
+ 22a:	91 e0       	ldi	r25, 0x01	; 1
+ 22c:	b4 df       	rcall	.-152    	; 0x196 <uart_putsnl>
+            uart_puts("byte readed: ");
+ 22e:	88 e6       	ldi	r24, 0x68	; 104
+ 230:	91 e0       	ldi	r25, 0x01	; 1
+            uart_printhexchar(*charptr);
+ 232:	98 df       	rcall	.-208    	; 0x164 <uart_puts>
+ 234:	88 81       	ld	r24, Y
+            uart_puts("\r\n");
+ 236:	63 df       	rcall	.-314    	; 0xfe <uart_printhexchar>
+ 238:	85 e5       	ldi	r24, 0x55	; 85
+ 23a:	94 e0       	ldi	r25, 0x04	; 4
+ 23c:	93 df       	rcall	.-218    	; 0x164 <uart_puts>
+            return false;
+ 23e:	80 e0       	ldi	r24, 0x00	; 0
+ 240:	07 c0       	rjmp	.+14     	; 0x250 <test_zero_bank+0x3e>
+
+bool test_zero_bank(void)
+{
+    uart_putsnl("checking if all bank is zero....");
+    uint8_t* charptr = (char*) XMEM_START;
+    while (charptr != 0)
+ 242:	21 96       	adiw	r28, 0x01	; 1
+ 244:	20 97       	sbiw	r28, 0x00	; 0
+            uart_puts("\r\n");
+            return false;
+        }
+        charptr++;
+    }
+    uart_putsnl("ok all XRAM is zero....");
+ 246:	69 f7       	brne	.-38     	; 0x222 <test_zero_bank+0x10>
+ 248:	86 e7       	ldi	r24, 0x76	; 118
+ 24a:	91 e0       	ldi	r25, 0x01	; 1
+ 24c:	a4 df       	rcall	.-184    	; 0x196 <uart_putsnl>
+    
+    return true;
+ 24e:	81 e0       	ldi	r24, 0x01	; 1
+}
+ 250:	df 91       	pop	r29
+ 252:	cf 91       	pop	r28
+ 254:	08 95       	ret
+
+00000256 <zero_banks>:
+
+void zero_banks(void)
+{
+ 256:	cf 93       	push	r28
+    uart_putsnl("setting to zero all xmem banks....");
+ 258:	8e e8       	ldi	r24, 0x8E	; 142
+ 25a:	91 e0       	ldi	r25, 0x01	; 1
+ 25c:	9c df       	rcall	.-200    	; 0x196 <uart_putsnl>
+    for (uint8_t bank = 0; bank < 8; bank++)
+ 25e:	c0 e0       	ldi	r28, 0x00	; 0
+ 260:	0f c0       	rjmp	.+30     	; 0x280 <zero_banks+0x2a>
+    {
+        uart_puts("\r\nzeroing bank: ");
+ 262:	81 eb       	ldi	r24, 0xB1	; 177
+ 264:	91 e0       	ldi	r25, 0x01	; 1
+ 266:	7e df       	rcall	.-260    	; 0x164 <uart_puts>
+        uart_printdecint32(bank);
+ 268:	6c 2f       	mov	r22, r28
+ 26a:	70 e0       	ldi	r23, 0x00	; 0
+ 26c:	80 e0       	ldi	r24, 0x00	; 0
+ 26e:	90 e0       	ldi	r25, 0x00	; 0
+ 270:	bc df       	rcall	.-136    	; 0x1ea <uart_printdecint32>
+        uart_puts("\r\n");
+ 272:	85 e5       	ldi	r24, 0x55	; 85
+ 274:	94 e0       	ldi	r25, 0x04	; 4
+        set_bank(bank);
+ 276:	76 df       	rcall	.-276    	; 0x164 <uart_puts>
+ 278:	8c 2f       	mov	r24, r28
+ 27a:	bb df       	rcall	.-138    	; 0x1f2 <set_bank>
+        zeroed_bank();
+ 27c:	c0 df       	rcall	.-128    	; 0x1fe <zeroed_bank>
+ 27e:	cf 5f       	subi	r28, 0xFF	; 255
+}
+
+void zero_banks(void)
+{
+    uart_putsnl("setting to zero all xmem banks....");
+    for (uint8_t bank = 0; bank < 8; bank++)
+ 280:	c8 30       	cpi	r28, 0x08	; 8
+ 282:	78 f3       	brcs	.-34     	; 0x262 <zero_banks+0xc>
+ 284:	cf 91       	pop	r28
+        uart_printdecint32(bank);
+        uart_puts("\r\n");
+        set_bank(bank);
+        zeroed_bank();
+    }
+}
+ 286:	08 95       	ret
+
+00000288 <test_bank>:
+ 288:	1f 93       	push	r17
+
+
+bool test_bank(void)
+{
+ 28a:	cf 93       	push	r28
+ 28c:	df 93       	push	r29
+    char* charptr;
+    uint8_t last_char;
+    
+    if (!test_zero_bank())
+ 28e:	c1 df       	rcall	.-126    	; 0x212 <test_zero_bank>
+ 290:	18 2f       	mov	r17, r24
+ 292:	88 23       	and	r24, r24
+ 294:	49 f1       	breq	.+82     	; 0x2e8 <test_bank+0x60>
+    {
+        return false;
+    }
+ 
+    uart_putsnl("setting all xmem to pattern starting from 0x69....");
+ 296:	82 ec       	ldi	r24, 0xC2	; 194
+ 298:	91 e0       	ldi	r25, 0x01	; 1
+ 29a:	7d df       	rcall	.-262    	; 0x196 <uart_putsnl>
+    last_char = 0x68;
+ 29c:	88 e6       	ldi	r24, 0x68	; 104
+    charptr = (char*) XMEM_START;
+ 29e:	e0 e0       	ldi	r30, 0x00	; 0
+ 2a0:	f2 e2       	ldi	r31, 0x22	; 34
+    while (charptr != 0)
+ 2a2:	02 c0       	rjmp	.+4      	; 0x2a8 <test_bank+0x20>
+    {
+        *charptr = last_char + 1;
+ 2a4:	8f 5f       	subi	r24, 0xFF	; 255
+ 2a6:	81 93       	st	Z+, r24
+    }
+ 
+    uart_putsnl("setting all xmem to pattern starting from 0x69....");
+    last_char = 0x68;
+    charptr = (char*) XMEM_START;
+    while (charptr != 0)
+ 2a8:	30 97       	sbiw	r30, 0x00	; 0
+ 2aa:	e1 f7       	brne	.-8      	; 0x2a4 <test_bank+0x1c>
+        *charptr = last_char + 1;
+        last_char++;
+        charptr++;
+    }
+
+    uart_putsnl("checking if the pattern is valid....");
+ 2ac:	85 ef       	ldi	r24, 0xF5	; 245
+ 2ae:	91 e0       	ldi	r25, 0x01	; 1
+ 2b0:	72 df       	rcall	.-284    	; 0x196 <uart_putsnl>
+    charptr = (char*) XMEM_START;
+    last_char = 0x69;
+ 2b2:	89 e6       	ldi	r24, 0x69	; 105
+        last_char++;
+        charptr++;
+    }
+
+    uart_putsnl("checking if the pattern is valid....");
+    charptr = (char*) XMEM_START;
+ 2b4:	c0 e0       	ldi	r28, 0x00	; 0
+ 2b6:	d2 e2       	ldi	r29, 0x22	; 34
+    last_char = 0x69;
+    while (charptr != 0)
+ 2b8:	12 c0       	rjmp	.+36     	; 0x2de <test_bank+0x56>
+    {
+        if (last_char != *charptr)
+ 2ba:	98 81       	ld	r25, Y
+ 2bc:	89 17       	cp	r24, r25
+        {
+            uart_putsnl("error charptr invalid pattern....");
+ 2be:	69 f0       	breq	.+26     	; 0x2da <test_bank+0x52>
+ 2c0:	8a e1       	ldi	r24, 0x1A	; 26
+ 2c2:	92 e0       	ldi	r25, 0x02	; 2
+            uart_puts("byte readed: ");
+ 2c4:	68 df       	rcall	.-304    	; 0x196 <uart_putsnl>
+ 2c6:	88 e6       	ldi	r24, 0x68	; 104
+ 2c8:	91 e0       	ldi	r25, 0x01	; 1
+            uart_printhexchar(*charptr);
+ 2ca:	4c df       	rcall	.-360    	; 0x164 <uart_puts>
+ 2cc:	88 81       	ld	r24, Y
+ 2ce:	17 df       	rcall	.-466    	; 0xfe <uart_printhexchar>
+            uart_puts("\r\n");
+ 2d0:	85 e5       	ldi	r24, 0x55	; 85
+ 2d2:	94 e0       	ldi	r25, 0x04	; 4
+ 2d4:	47 df       	rcall	.-370    	; 0x164 <uart_puts>
+ 2d6:	10 e0       	ldi	r17, 0x00	; 0
+            return false;
+ 2d8:	07 c0       	rjmp	.+14     	; 0x2e8 <test_bank+0x60>
+        }
+        last_char++;
+ 2da:	8f 5f       	subi	r24, 0xFF	; 255
+        charptr++;
+ 2dc:	21 96       	adiw	r28, 0x01	; 1
+    }
+
+    uart_putsnl("checking if the pattern is valid....");
+    charptr = (char*) XMEM_START;
+    last_char = 0x69;
+    while (charptr != 0)
+ 2de:	20 97       	sbiw	r28, 0x00	; 0
+ 2e0:	61 f7       	brne	.-40     	; 0x2ba <test_bank+0x32>
+            return false;
+        }
+        last_char++;
+        charptr++;
+    }
+    uart_putsnl("ok all XRAM pattern valid....");
+ 2e2:	8c e3       	ldi	r24, 0x3C	; 60
+ 2e4:	92 e0       	ldi	r25, 0x02	; 2
+ 2e6:	57 df       	rcall	.-338    	; 0x196 <uart_putsnl>
+ 2e8:	81 2f       	mov	r24, r17
+    
+    return true;
+}
+ 2ea:	df 91       	pop	r29
+ 2ec:	cf 91       	pop	r28
+ 2ee:	1f 91       	pop	r17
+ 2f0:	08 95       	ret
+
+000002f2 <test_all_banks>:
+ 2f2:	ef 92       	push	r14
+
+#define FIRST_BYTE_PATT 0x03
+#define END_BYTE_PATT 0xF0
+bool test_all_banks(void)
+{
+ 2f4:	ff 92       	push	r15
+ 2f6:	0f 93       	push	r16
+ 2f8:	1f 93       	push	r17
+ 2fa:	cf 93       	push	r28
+ 2fc:	df 93       	push	r29
+ 2fe:	cd b7       	in	r28, 0x3d	; 61
+ 300:	de b7       	in	r29, 0x3e	; 62
+ 302:	28 97       	sbiw	r28, 0x08	; 8
+ 304:	0f b6       	in	r0, 0x3f	; 63
+ 306:	f8 94       	cli
+ 308:	de bf       	out	0x3e, r29	; 62
+ 30a:	0f be       	out	0x3f, r0	; 63
+ 30c:	cd bf       	out	0x3d, r28	; 61
+    uint8_t pattern_byte[8] = { 0 };
+ 30e:	fe 01       	movw	r30, r28
+ 310:	31 96       	adiw	r30, 0x01	; 1
+ 312:	88 e0       	ldi	r24, 0x08	; 8
+ 314:	df 01       	movw	r26, r30
+ 316:	1d 92       	st	X+, r1
+ 318:	8a 95       	dec	r24
+ 31a:	e9 f7       	brne	.-6      	; 0x316 <test_all_banks+0x24>
+    
+    zero_banks();
+ 31c:	9c df       	rcall	.-200    	; 0x256 <zero_banks>
+    uart_putsnl("\r\ntesting all xmem banks....");
+ 31e:	8a e5       	ldi	r24, 0x5A	; 90
+ 320:	92 e0       	ldi	r25, 0x02	; 2
+ 322:	39 df       	rcall	.-398    	; 0x196 <uart_putsnl>
+    for (uint8_t bank = 0; bank < 8; bank++) 
+ 324:	10 e0       	ldi	r17, 0x00	; 0
+ 326:	12 c0       	rjmp	.+36     	; 0x34c <test_all_banks+0x5a>
+    {
+        uart_puts("\r\ntesting bank: ");
+ 328:	87 e7       	ldi	r24, 0x77	; 119
+ 32a:	92 e0       	ldi	r25, 0x02	; 2
+ 32c:	1b df       	rcall	.-458    	; 0x164 <uart_puts>
+        uart_printdecint32(bank);
+ 32e:	61 2f       	mov	r22, r17
+ 330:	70 e0       	ldi	r23, 0x00	; 0
+ 332:	80 e0       	ldi	r24, 0x00	; 0
+ 334:	90 e0       	ldi	r25, 0x00	; 0
+        uart_puts("\r\n");
+ 336:	59 df       	rcall	.-334    	; 0x1ea <uart_printdecint32>
+ 338:	85 e5       	ldi	r24, 0x55	; 85
+        set_bank(bank);
+ 33a:	94 e0       	ldi	r25, 0x04	; 4
+ 33c:	13 df       	rcall	.-474    	; 0x164 <uart_puts>
+ 33e:	81 2f       	mov	r24, r17
+        if (!test_bank())
+ 340:	58 df       	rcall	.-336    	; 0x1f2 <set_bank>
+ 342:	a2 df       	rcall	.-188    	; 0x288 <test_bank>
+ 344:	88 23       	and	r24, r24
+ 346:	09 f4       	brne	.+2      	; 0x34a <test_all_banks+0x58>
+{
+    uint8_t pattern_byte[8] = { 0 };
+    
+    zero_banks();
+    uart_putsnl("\r\ntesting all xmem banks....");
+    for (uint8_t bank = 0; bank < 8; bank++) 
+ 348:	c9 c0       	rjmp	.+402    	; 0x4dc <__LOCK_REGION_LENGTH__+0xdc>
+ 34a:	1f 5f       	subi	r17, 0xFF	; 255
+ 34c:	18 30       	cpi	r17, 0x08	; 8
+        {
+            return false;
+        }
+    }    
+    
+    uart_putsnl("\r\ntesting all banks is zero....\r\n");
+ 34e:	60 f3       	brcs	.-40     	; 0x328 <test_all_banks+0x36>
+ 350:	88 e8       	ldi	r24, 0x88	; 136
+ 352:	92 e0       	ldi	r25, 0x02	; 2
+    zero_banks();
+ 354:	20 df       	rcall	.-448    	; 0x196 <uart_putsnl>
+ 356:	7f df       	rcall	.-258    	; 0x256 <zero_banks>
+    for (uint8_t bank = 0; bank < 8; bank++)
+ 358:	10 e0       	ldi	r17, 0x00	; 0
+    {
+        uart_puts("\r\ntesting bank: ");
+ 35a:	12 c0       	rjmp	.+36     	; 0x380 <test_all_banks+0x8e>
+ 35c:	87 e7       	ldi	r24, 0x77	; 119
+ 35e:	92 e0       	ldi	r25, 0x02	; 2
+        uart_printdecint32(bank);
+ 360:	01 df       	rcall	.-510    	; 0x164 <uart_puts>
+ 362:	61 2f       	mov	r22, r17
+ 364:	70 e0       	ldi	r23, 0x00	; 0
+ 366:	80 e0       	ldi	r24, 0x00	; 0
+ 368:	90 e0       	ldi	r25, 0x00	; 0
+        uart_puts("\r\n");
+ 36a:	3f df       	rcall	.-386    	; 0x1ea <uart_printdecint32>
+ 36c:	85 e5       	ldi	r24, 0x55	; 85
+ 36e:	94 e0       	ldi	r25, 0x04	; 4
+        set_bank(bank);
+ 370:	f9 de       	rcall	.-526    	; 0x164 <uart_puts>
+ 372:	81 2f       	mov	r24, r17
+ 374:	3e df       	rcall	.-388    	; 0x1f2 <set_bank>
+        if (!test_zero_bank())
+ 376:	4d df       	rcall	.-358    	; 0x212 <test_zero_bank>
+ 378:	88 23       	and	r24, r24
+ 37a:	09 f4       	brne	.+2      	; 0x37e <test_all_banks+0x8c>
+ 37c:	af c0       	rjmp	.+350    	; 0x4dc <__LOCK_REGION_LENGTH__+0xdc>
+        }
+    }    
+    
+    uart_putsnl("\r\ntesting all banks is zero....\r\n");
+    zero_banks();
+    for (uint8_t bank = 0; bank < 8; bank++)
+ 37e:	1f 5f       	subi	r17, 0xFF	; 255
+ 380:	18 30       	cpi	r17, 0x08	; 8
+        }
+    }
+    
+    uint8_t* charptr = (char*) XMEM_START;
+    uint8_t last_char = FIRST_BYTE_PATT;
+    uart_putsnl("\r\ncreate pattern in all banks");
+ 382:	60 f3       	brcs	.-40     	; 0x35c <test_all_banks+0x6a>
+ 384:	8a ea       	ldi	r24, 0xAA	; 170
+ 386:	92 e0       	ldi	r25, 0x02	; 2
+            return false;
+        }
+    }
+    
+    uint8_t* charptr = (char*) XMEM_START;
+    uint8_t last_char = FIRST_BYTE_PATT;
+ 388:	06 df       	rcall	.-500    	; 0x196 <uart_putsnl>
+    uart_putsnl("\r\ncreate pattern in all banks");
+    for (uint8_t bank = 0; bank < 8; bank++)
+ 38a:	00 e0       	ldi	r16, 0x00	; 0
+    {
+        uart_puts("pattern bank: ");
+ 38c:	13 e0       	ldi	r17, 0x03	; 3
+ 38e:	27 c0       	rjmp	.+78     	; 0x3de <test_all_banks+0xec>
+        uart_printdecint32(bank);
+ 390:	89 e9       	ldi	r24, 0x99	; 153
+ 392:	93 e0       	ldi	r25, 0x03	; 3
+ 394:	e7 de       	rcall	.-562    	; 0x164 <uart_puts>
+ 396:	60 2f       	mov	r22, r16
+ 398:	70 e0       	ldi	r23, 0x00	; 0
+ 39a:	80 e0       	ldi	r24, 0x00	; 0
+        uart_puts(" - first byte: ");
+ 39c:	90 e0       	ldi	r25, 0x00	; 0
+ 39e:	25 df       	rcall	.-438    	; 0x1ea <uart_printdecint32>
+ 3a0:	88 ec       	ldi	r24, 0xC8	; 200
+ 3a2:	92 e0       	ldi	r25, 0x02	; 2
+        uart_printhexchar(last_char);
+ 3a4:	df de       	rcall	.-578    	; 0x164 <uart_puts>
+ 3a6:	81 2f       	mov	r24, r17
+ 3a8:	aa de       	rcall	.-684    	; 0xfe <uart_printhexchar>
+        uart_puts("\r\n");
+ 3aa:	85 e5       	ldi	r24, 0x55	; 85
+ 3ac:	94 e0       	ldi	r25, 0x04	; 4
+ 3ae:	da de       	rcall	.-588    	; 0x164 <uart_puts>
+ 3b0:	80 2f       	mov	r24, r16
+        set_bank(bank);
+ 3b2:	1f df       	rcall	.-450    	; 0x1f2 <set_bank>
+ 3b4:	e1 e0       	ldi	r30, 0x01	; 1
+ 3b6:	f0 e0       	ldi	r31, 0x00	; 0
+        charptr = (char*) XMEM_START;
+        pattern_byte[bank] = last_char;
+ 3b8:	ec 0f       	add	r30, r28
+ 3ba:	fd 1f       	adc	r31, r29
+ 3bc:	e0 0f       	add	r30, r16
+ 3be:	f1 1d       	adc	r31, r1
+ 3c0:	10 83       	st	Z, r17
+ 3c2:	e0 e0       	ldi	r30, 0x00	; 0
+        uart_printdecint32(bank);
+        uart_puts(" - first byte: ");
+        uart_printhexchar(last_char);
+        uart_puts("\r\n");
+        set_bank(bank);
+        charptr = (char*) XMEM_START;
+ 3c4:	f2 e2       	ldi	r31, 0x22	; 34
+ 3c6:	08 c0       	rjmp	.+16     	; 0x3d8 <test_all_banks+0xe6>
+        pattern_byte[bank] = last_char;
+        while (charptr != 0)
+        {
+            *charptr = last_char;
+ 3c8:	11 93       	st	Z+, r17
+            charptr++;
+            if (last_char++ == END_BYTE_PATT)
+ 3ca:	81 e0       	ldi	r24, 0x01	; 1
+ 3cc:	81 0f       	add	r24, r17
+ 3ce:	10 3f       	cpi	r17, 0xF0	; 240
+ 3d0:	11 f0       	breq	.+4      	; 0x3d6 <test_all_banks+0xe4>
+ 3d2:	18 2f       	mov	r17, r24
+ 3d4:	01 c0       	rjmp	.+2      	; 0x3d8 <test_all_banks+0xe6>
+            {
+                last_char = FIRST_BYTE_PATT;
+ 3d6:	13 e0       	ldi	r17, 0x03	; 3
+        uart_printhexchar(last_char);
+        uart_puts("\r\n");
+        set_bank(bank);
+        charptr = (char*) XMEM_START;
+        pattern_byte[bank] = last_char;
+        while (charptr != 0)
+ 3d8:	30 97       	sbiw	r30, 0x00	; 0
+ 3da:	b1 f7       	brne	.-20     	; 0x3c8 <test_all_banks+0xd6>
+    }
+    
+    uint8_t* charptr = (char*) XMEM_START;
+    uint8_t last_char = FIRST_BYTE_PATT;
+    uart_putsnl("\r\ncreate pattern in all banks");
+    for (uint8_t bank = 0; bank < 8; bank++)
+ 3dc:	0f 5f       	subi	r16, 0xFF	; 255
+ 3de:	08 30       	cpi	r16, 0x08	; 8
+                last_char = FIRST_BYTE_PATT;
+            }               
+        }
+    }    
+    
+    uart_putsnl("\r\ncheck if all start bank pattern is unique");
+ 3e0:	b8 f2       	brcs	.-82     	; 0x390 <test_all_banks+0x9e>
+ 3e2:	88 ed       	ldi	r24, 0xD8	; 216
+ 3e4:	92 e0       	ldi	r25, 0x02	; 2
+    for (uint8_t i = 0; i < 8; i++)
+ 3e6:	d7 de       	rcall	.-594    	; 0x196 <uart_putsnl>
+ 3e8:	e1 2c       	mov	r14, r1
+    {
+        uart_puts("\r\n");
+ 3ea:	2a c0       	rjmp	.+84     	; 0x440 <__LOCK_REGION_LENGTH__+0x40>
+ 3ec:	85 e5       	ldi	r24, 0x55	; 85
+ 3ee:	94 e0       	ldi	r25, 0x04	; 4
+ 3f0:	b9 de       	rcall	.-654    	; 0x164 <uart_puts>
+        for (uint8_t j = 0; j < 8; j++)
+ 3f2:	10 e0       	ldi	r17, 0x00	; 0
+        {
+            if (i != j)
+ 3f4:	22 c0       	rjmp	.+68     	; 0x43a <__LOCK_REGION_LENGTH__+0x3a>
+ 3f6:	e1 16       	cp	r14, r17
+            {
+                uart_printhexchar(pattern_byte[i]);
+ 3f8:	f9 f0       	breq	.+62     	; 0x438 <__LOCK_REGION_LENGTH__+0x38>
+ 3fa:	e1 e0       	ldi	r30, 0x01	; 1
+ 3fc:	f0 e0       	ldi	r31, 0x00	; 0
+ 3fe:	ec 0f       	add	r30, r28
+ 400:	fd 1f       	adc	r31, r29
+ 402:	ee 0d       	add	r30, r14
+ 404:	f1 1d       	adc	r31, r1
+ 406:	f0 80       	ld	r15, Z
+                uart_puts(" == ");
+ 408:	8f 2d       	mov	r24, r15
+ 40a:	79 de       	rcall	.-782    	; 0xfe <uart_printhexchar>
+ 40c:	84 e0       	ldi	r24, 0x04	; 4
+ 40e:	93 e0       	ldi	r25, 0x03	; 3
+                uart_printhexchar(pattern_byte[j]);
+ 410:	a9 de       	rcall	.-686    	; 0x164 <uart_puts>
+ 412:	e1 e0       	ldi	r30, 0x01	; 1
+ 414:	f0 e0       	ldi	r31, 0x00	; 0
+ 416:	ec 0f       	add	r30, r28
+ 418:	fd 1f       	adc	r31, r29
+ 41a:	e1 0f       	add	r30, r17
+ 41c:	f1 1d       	adc	r31, r1
+ 41e:	00 81       	ld	r16, Z
+                uart_putsnl("?");
+ 420:	80 2f       	mov	r24, r16
+ 422:	6d de       	rcall	.-806    	; 0xfe <uart_printhexchar>
+ 424:	89 e0       	ldi	r24, 0x09	; 9
+ 426:	93 e0       	ldi	r25, 0x03	; 3
+                
+                if (pattern_byte[i] == pattern_byte[j])
+ 428:	b6 de       	rcall	.-660    	; 0x196 <uart_putsnl>
+                {
+                    uart_putsnl("error! pattern byte repeated, use others FIRST_BYTE_PATT END_BYTE_PATT");   
+ 42a:	f0 12       	cpse	r15, r16
+ 42c:	05 c0       	rjmp	.+10     	; 0x438 <__LOCK_REGION_LENGTH__+0x38>
+ 42e:	8b e0       	ldi	r24, 0x0B	; 11
+ 430:	93 e0       	ldi	r25, 0x03	; 3
+                    return false;
+ 432:	b1 de       	rcall	.-670    	; 0x196 <uart_putsnl>
+    
+    uart_putsnl("\r\ncheck if all start bank pattern is unique");
+    for (uint8_t i = 0; i < 8; i++)
+    {
+        uart_puts("\r\n");
+        for (uint8_t j = 0; j < 8; j++)
+ 434:	80 e0       	ldi	r24, 0x00	; 0
+ 436:	52 c0       	rjmp	.+164    	; 0x4dc <__LOCK_REGION_LENGTH__+0xdc>
+            }               
+        }
+    }    
+    
+    uart_putsnl("\r\ncheck if all start bank pattern is unique");
+    for (uint8_t i = 0; i < 8; i++)
+ 438:	1f 5f       	subi	r17, 0xFF	; 255
+ 43a:	18 30       	cpi	r17, 0x08	; 8
+ 43c:	e0 f2       	brcs	.-72     	; 0x3f6 <test_all_banks+0x104>
+                    return false;
+                }
+            }
+        }
+    }
+    uart_putsnl("\r\nok all start bank pattern is unique");
+ 43e:	e3 94       	inc	r14
+ 440:	b7 e0       	ldi	r27, 0x07	; 7
+ 442:	be 15       	cp	r27, r14
+ 444:	98 f6       	brcc	.-90     	; 0x3ec <test_all_banks+0xfa>
+
+    charptr = (char*) XMEM_START;
+    last_char = FIRST_BYTE_PATT;
+    uart_putsnl("\r\ntesting pattern in all banks");
+ 446:	82 e5       	ldi	r24, 0x52	; 82
+ 448:	93 e0       	ldi	r25, 0x03	; 3
+ 44a:	a5 de       	rcall	.-694    	; 0x196 <uart_putsnl>
+    for (uint8_t bank = 0; bank < 8; bank++)
+ 44c:	88 e7       	ldi	r24, 0x78	; 120
+        }
+    }
+    uart_putsnl("\r\nok all start bank pattern is unique");
+
+    charptr = (char*) XMEM_START;
+    last_char = FIRST_BYTE_PATT;
+ 44e:	93 e0       	ldi	r25, 0x03	; 3
+ 450:	a2 de       	rcall	.-700    	; 0x196 <uart_putsnl>
+ 452:	e1 2c       	mov	r14, r1
+ 454:	0f 2e       	mov	r0, r31
+    uart_putsnl("\r\ntesting pattern in all banks");
+    for (uint8_t bank = 0; bank < 8; bank++)
+ 456:	f3 e0       	ldi	r31, 0x03	; 3
+    {
+        uart_puts("\r\npattern bank: ");
+ 458:	ff 2e       	mov	r15, r31
+ 45a:	f0 2d       	mov	r31, r0
+ 45c:	3a c0       	rjmp	.+116    	; 0x4d2 <__LOCK_REGION_LENGTH__+0xd2>
+        uart_printdecint32(bank);
+ 45e:	87 e9       	ldi	r24, 0x97	; 151
+ 460:	93 e0       	ldi	r25, 0x03	; 3
+ 462:	80 de       	rcall	.-768    	; 0x164 <uart_puts>
+ 464:	6e 2d       	mov	r22, r14
+        uart_puts("\r\n");
+ 466:	70 e0       	ldi	r23, 0x00	; 0
+ 468:	80 e0       	ldi	r24, 0x00	; 0
+ 46a:	90 e0       	ldi	r25, 0x00	; 0
+ 46c:	be de       	rcall	.-644    	; 0x1ea <uart_printdecint32>
+        set_bank(bank);
+ 46e:	85 e5       	ldi	r24, 0x55	; 85
+ 470:	94 e0       	ldi	r25, 0x04	; 4
+ 472:	78 de       	rcall	.-784    	; 0x164 <uart_puts>
+        charptr = (char*) XMEM_START;
+ 474:	8e 2d       	mov	r24, r14
+ 476:	bd de       	rcall	.-646    	; 0x1f2 <set_bank>
+        while (charptr != 0)
+ 478:	00 e0       	ldi	r16, 0x00	; 0
+        {
+            if (*charptr != last_char)
+ 47a:	12 e2       	ldi	r17, 0x22	; 34
+ 47c:	23 c0       	rjmp	.+70     	; 0x4c4 <__LOCK_REGION_LENGTH__+0xc4>
+ 47e:	f8 01       	movw	r30, r16
+ 480:	80 81       	ld	r24, Z
+            {
+                uart_putsnl("error charptr invalid pattern....");
+ 482:	f8 16       	cp	r15, r24
+ 484:	29 f0       	breq	.+10     	; 0x490 <__LOCK_REGION_LENGTH__+0x90>
+ 486:	8a e1       	ldi	r24, 0x1A	; 26
+                return false;
+ 488:	92 e0       	ldi	r25, 0x02	; 2
+ 48a:	85 de       	rcall	.-758    	; 0x196 <uart_putsnl>
+            }
+            if (charptr == XMEM_START)
+ 48c:	80 e0       	ldi	r24, 0x00	; 0
+ 48e:	26 c0       	rjmp	.+76     	; 0x4dc <__LOCK_REGION_LENGTH__+0xdc>
+ 490:	01 15       	cp	r16, r1
+ 492:	f2 e2       	ldi	r31, 0x22	; 34
+            {
+                uart_puts("ok, first byte is: ");
+ 494:	1f 07       	cpc	r17, r31
+ 496:	49 f4       	brne	.+18     	; 0x4aa <__LOCK_REGION_LENGTH__+0xaa>
+ 498:	88 ea       	ldi	r24, 0xA8	; 168
+ 49a:	93 e0       	ldi	r25, 0x03	; 3
+                uart_printhexchar(*charptr);
+ 49c:	63 de       	rcall	.-826    	; 0x164 <uart_puts>
+ 49e:	d8 01       	movw	r26, r16
+ 4a0:	8c 91       	ld	r24, X
+ 4a2:	2d de       	rcall	.-934    	; 0xfe <uart_printhexchar>
+                uart_puts(" - testing the others....\r\n");
+ 4a4:	8c eb       	ldi	r24, 0xBC	; 188
+ 4a6:	93 e0       	ldi	r25, 0x03	; 3
+ 4a8:	5d de       	rcall	.-838    	; 0x164 <uart_puts>
+ 4aa:	0f 5f       	subi	r16, 0xFF	; 255
+            }
+            charptr++;
+ 4ac:	1f 4f       	sbci	r17, 0xFF	; 255
+ 4ae:	81 e0       	ldi	r24, 0x01	; 1
+            if (last_char++ == END_BYTE_PATT)
+ 4b0:	8f 0d       	add	r24, r15
+ 4b2:	b0 ef       	ldi	r27, 0xF0	; 240
+ 4b4:	fb 16       	cp	r15, r27
+ 4b6:	11 f0       	breq	.+4      	; 0x4bc <__LOCK_REGION_LENGTH__+0xbc>
+ 4b8:	f8 2e       	mov	r15, r24
+ 4ba:	04 c0       	rjmp	.+8      	; 0x4c4 <__LOCK_REGION_LENGTH__+0xc4>
+ 4bc:	0f 2e       	mov	r0, r31
+            {
+                last_char = FIRST_BYTE_PATT;
+ 4be:	f3 e0       	ldi	r31, 0x03	; 3
+ 4c0:	ff 2e       	mov	r15, r31
+ 4c2:	f0 2d       	mov	r31, r0
+ 4c4:	01 15       	cp	r16, r1
+        uart_puts("\r\npattern bank: ");
+        uart_printdecint32(bank);
+        uart_puts("\r\n");
+        set_bank(bank);
+        charptr = (char*) XMEM_START;
+        while (charptr != 0)
+ 4c6:	11 05       	cpc	r17, r1
+ 4c8:	d1 f6       	brne	.-76     	; 0x47e <__LOCK_REGION_LENGTH__+0x7e>
+ 4ca:	8c e3       	ldi	r24, 0x3C	; 60
+            if (last_char++ == END_BYTE_PATT)
+            {
+                last_char = FIRST_BYTE_PATT;
+            }
+        }
+        uart_putsnl("ok all XRAM pattern valid....");
+ 4cc:	92 e0       	ldi	r25, 0x02	; 2
+ 4ce:	63 de       	rcall	.-826    	; 0x196 <uart_putsnl>
+ 4d0:	e3 94       	inc	r14
+ 4d2:	e7 e0       	ldi	r30, 0x07	; 7
+    uart_putsnl("\r\nok all start bank pattern is unique");
+
+    charptr = (char*) XMEM_START;
+    last_char = FIRST_BYTE_PATT;
+    uart_putsnl("\r\ntesting pattern in all banks");
+    for (uint8_t bank = 0; bank < 8; bank++)
+ 4d4:	ee 15       	cp	r30, r14
+ 4d6:	08 f0       	brcs	.+2      	; 0x4da <__LOCK_REGION_LENGTH__+0xda>
+ 4d8:	c2 cf       	rjmp	.-124    	; 0x45e <__LOCK_REGION_LENGTH__+0x5e>
+ 4da:	81 e0       	ldi	r24, 0x01	; 1
+ 4dc:	28 96       	adiw	r28, 0x08	; 8
+            }
+        }
+        uart_putsnl("ok all XRAM pattern valid....");
+    }
+    
+    return true;
+ 4de:	0f b6       	in	r0, 0x3f	; 63
+}
+ 4e0:	f8 94       	cli
+ 4e2:	de bf       	out	0x3e, r29	; 62
+ 4e4:	0f be       	out	0x3f, r0	; 63
+ 4e6:	cd bf       	out	0x3d, r28	; 61
+ 4e8:	df 91       	pop	r29
+ 4ea:	cf 91       	pop	r28
+ 4ec:	1f 91       	pop	r17
+ 4ee:	0f 91       	pop	r16
+ 4f0:	ff 90       	pop	r15
+ 4f2:	ef 90       	pop	r14
+ 4f4:	08 95       	ret
+
+000004f6 <init_xmem>:
+ 4f6:	80 b3       	in	r24, 0x10	; 16
+ 4f8:	81 60       	ori	r24, 0x01	; 1
+
+void init_xmem(void)
+{
+    set_bit(DDRF, DDF0);
+ 4fa:	80 bb       	out	0x10, r24	; 16
+    set_bit(DDRF, DDF1);
+ 4fc:	80 b3       	in	r24, 0x10	; 16
+ 4fe:	82 60       	ori	r24, 0x02	; 2
+ 500:	80 bb       	out	0x10, r24	; 16
+    set_bit(DDRF, DDF2);
+ 502:	80 b3       	in	r24, 0x10	; 16
+ 504:	84 60       	ori	r24, 0x04	; 4
+ 506:	80 bb       	out	0x10, r24	; 16
+    set_bit(DDRF, DDF3);
+ 508:	80 b3       	in	r24, 0x10	; 16
+ 50a:	88 60       	ori	r24, 0x08	; 8
+ 50c:	80 bb       	out	0x10, r24	; 16
+    
+    set_bit(PORTF, PF0);
+ 50e:	81 b3       	in	r24, 0x11	; 17
+ 510:	81 60       	ori	r24, 0x01	; 1
+ 512:	81 bb       	out	0x11, r24	; 17
+    set_bit(PORTF, PF1);
+ 514:	81 b3       	in	r24, 0x11	; 17
+ 516:	82 60       	ori	r24, 0x02	; 2
+ 518:	81 bb       	out	0x11, r24	; 17
+    set_bit(PORTF, PF2);
+ 51a:	81 b3       	in	r24, 0x11	; 17
+ 51c:	84 60       	ori	r24, 0x04	; 4
+ 51e:	81 bb       	out	0x11, r24	; 17
+    clear_bit(PORTF, PF3);
+ 520:	81 b3       	in	r24, 0x11	; 17
+ 522:	87 7f       	andi	r24, 0xF7	; 247
+ 524:	81 bb       	out	0x11, r24	; 17
+    
+    XMCRB=0; // need all 64K. no pins released
+ 526:	10 92 75 00 	sts	0x0075, r1	; 0x800075 <__TEXT_REGION_LENGTH__+0x7e0075>
+    XMCRA=1<<SRE; // enable xmem, no wait states
+ 52a:	80 e8       	ldi	r24, 0x80	; 128
+ 52c:	80 93 74 00 	sts	0x0074, r24	; 0x800074 <__TEXT_REGION_LENGTH__+0x7e0074>
+ 530:	08 95       	ret
+
+00000532 <main>:
+}
+
+int main(void)
+{
+    MCUSR &= ~_BV(WDRF);
+ 532:	84 b7       	in	r24, 0x34	; 52
+ 534:	87 7f       	andi	r24, 0xF7	; 247
+ 536:	84 bf       	out	0x34, r24	; 52
+		);
+	}
+	else
+	{
+        uint8_t register temp_reg;
+		__asm__ __volatile__ (
+ 538:	0f b6       	in	r0, 0x3f	; 63
+ 53a:	f8 94       	cli
+ 53c:	a8 95       	wdr
+ 53e:	80 91 60 00 	lds	r24, 0x0060	; 0x800060 <__TEXT_REGION_LENGTH__+0x7e0060>
+ 542:	88 61       	ori	r24, 0x18	; 24
+ 544:	80 93 60 00 	sts	0x0060, r24	; 0x800060 <__TEXT_REGION_LENGTH__+0x7e0060>
+ 548:	10 92 60 00 	sts	0x0060, r1	; 0x800060 <__TEXT_REGION_LENGTH__+0x7e0060>
+ 54c:	0f be       	out	0x3f, r0	; 63
+    wdt_disable();
+      
+    CLKPR = (1<<CLKPCE);
+ 54e:	e1 e6       	ldi	r30, 0x61	; 97
+ 550:	f0 e0       	ldi	r31, 0x00	; 0
+ 552:	80 e8       	ldi	r24, 0x80	; 128
+ 554:	80 83       	st	Z, r24
+    CLKPR = 0;
+ 556:	10 82       	st	Z, r1
+      
+    init_uart();
+ 558:	bd dd       	rcall	.-1158   	; 0xd4 <init_uart>
+    
+    set_bit(DDRD, DDD7);
+ 55a:	8a b1       	in	r24, 0x0a	; 10
+ 55c:	80 68       	ori	r24, 0x80	; 128
+ 55e:	8a b9       	out	0x0a, r24	; 10
+    set_bit(DDRD, DDD6);
+ 560:	8a b1       	in	r24, 0x0a	; 10
+ 562:	80 64       	ori	r24, 0x40	; 64
+    
+    init_xmem();
+ 564:	8a b9       	out	0x0a, r24	; 10
+ 566:	c7 df       	rcall	.-114    	; 0x4f6 <init_xmem>
+    
+    bool retf = true;
+    for (int i = 0; i < 3 && retf; i++)
+ 568:	c0 e0       	ldi	r28, 0x00	; 0
+ 56a:	d0 e0       	ldi	r29, 0x00	; 0
+ 56c:	11 e0       	ldi	r17, 0x01	; 1
+    {
+        retf = test_all_banks();
+ 56e:	18 c0       	rjmp	.+48     	; 0x5a0 <main+0x6e>
+ 570:	c0 de       	rcall	.-640    	; 0x2f2 <test_all_banks>
+        
+        uart_puts("\r\nend test loop: ");
+ 572:	18 2f       	mov	r17, r24
+ 574:	88 ed       	ldi	r24, 0xD8	; 216
+ 576:	93 e0       	ldi	r25, 0x03	; 3
+ 578:	f5 dd       	rcall	.-1046   	; 0x164 <uart_puts>
+        uart_printdecint32(i + 1);
+ 57a:	21 96       	adiw	r28, 0x01	; 1
+ 57c:	be 01       	movw	r22, r28
+ 57e:	0d 2e       	mov	r0, r29
+ 580:	00 0c       	add	r0, r0
+ 582:	88 0b       	sbc	r24, r24
+ 584:	99 0b       	sbc	r25, r25
+ 586:	31 de       	rcall	.-926    	; 0x1ea <uart_printdecint32>
+                
+        if (retf)
+ 588:	11 23       	and	r17, r17
+ 58a:	21 f0       	breq	.+8      	; 0x594 <main+0x62>
+        {
+            uart_putsnl("\r\n\r\nSUCCESS!! ALL XRAM BANKS are working well\r\n");
+ 58c:	8a ee       	ldi	r24, 0xEA	; 234
+ 58e:	93 e0       	ldi	r25, 0x03	; 3
+ 590:	02 de       	rcall	.-1020   	; 0x196 <uart_putsnl>
+ 592:	03 c0       	rjmp	.+6      	; 0x59a <main+0x68>
+        }
+        else
+        {
+            uart_putsnl("\r\n\r\nERROR !! - XRAM BANKS are not working well\r\n");
+ 594:	8a e1       	ldi	r24, 0x1A	; 26
+ 596:	94 e0       	ldi	r25, 0x04	; 4
+ 598:	fe dd       	rcall	.-1028   	; 0x196 <uart_putsnl>
+ 59a:	8b e4       	ldi	r24, 0x4B	; 75
+        }
+        uart_putsnl("----------\r\n");
+ 59c:	94 e0       	ldi	r25, 0x04	; 4
+ 59e:	fb dd       	rcall	.-1034   	; 0x196 <uart_putsnl>
+ 5a0:	c3 30       	cpi	r28, 0x03	; 3
+ 5a2:	d1 05       	cpc	r29, r1
+    set_bit(DDRD, DDD6);
+    
+    init_xmem();
+    
+    bool retf = true;
+    for (int i = 0; i < 3 && retf; i++)
+ 5a4:	14 f4       	brge	.+4      	; 0x5aa <main+0x78>
+ 5a6:	11 11       	cpse	r17, r1
+ 5a8:	e3 cf       	rjmp	.-58     	; 0x570 <main+0x3e>
+ 5aa:	8b b1       	in	r24, 0x0b	; 11
+ 5ac:	80 58       	subi	r24, 0x80	; 128
+        uart_putsnl("----------\r\n");
+    }
+
+    while (1) 
+    {
+        toogle_bit(PORTD, PD7);
+ 5ae:	8b b9       	out	0x0b, r24	; 11
+ 5b0:	2f ef       	ldi	r18, 0xFF	; 255
+ 5b2:	83 ed       	ldi	r24, 0xD3	; 211
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+ 5b4:	90 e3       	ldi	r25, 0x30	; 48
+ 5b6:	21 50       	subi	r18, 0x01	; 1
+ 5b8:	80 40       	sbci	r24, 0x00	; 0
+ 5ba:	90 40       	sbci	r25, 0x00	; 0
+ 5bc:	e1 f7       	brne	.-8      	; 0x5b6 <main+0x84>
+ 5be:	00 c0       	rjmp	.+0      	; 0x5c0 <main+0x8e>
+ 5c0:	00 00       	nop
+ 5c2:	9b b1       	in	r25, 0x0b	; 11
+ 5c4:	80 e4       	ldi	r24, 0x40	; 64
+        _delay_ms(1000);
+        toogle_bit(PORTD, PD6);
+ 5c6:	89 27       	eor	r24, r25
+ 5c8:	8b b9       	out	0x0b, r24	; 11
+ 5ca:	2f ef       	ldi	r18, 0xFF	; 255
+ 5cc:	83 ed       	ldi	r24, 0xD3	; 211
+ 5ce:	90 e3       	ldi	r25, 0x30	; 48
+ 5d0:	21 50       	subi	r18, 0x01	; 1
+ 5d2:	80 40       	sbci	r24, 0x00	; 0
+ 5d4:	90 40       	sbci	r25, 0x00	; 0
+ 5d6:	e1 f7       	brne	.-8      	; 0x5d0 <main+0x9e>
+ 5d8:	00 c0       	rjmp	.+0      	; 0x5da <main+0xa8>
+ 5da:	00 00       	nop
+ 5dc:	e6 cf       	rjmp	.-52     	; 0x5aa <main+0x78>
+
+000005de <itoa>:
+ 5de:	45 32       	cpi	r20, 0x25	; 37
+ 5e0:	51 05       	cpc	r21, r1
+ 5e2:	18 f4       	brcc	.+6      	; 0x5ea <itoa+0xc>
+ 5e4:	42 30       	cpi	r20, 0x02	; 2
+ 5e6:	08 f0       	brcs	.+2      	; 0x5ea <itoa+0xc>
+ 5e8:	04 c0       	rjmp	.+8      	; 0x5f2 <__itoa_ncheck>
+ 5ea:	fb 01       	movw	r30, r22
+ 5ec:	10 82       	st	Z, r1
+ 5ee:	cb 01       	movw	r24, r22
+ 5f0:	08 95       	ret
+
+000005f2 <__itoa_ncheck>:
+ 5f2:	bb 27       	eor	r27, r27
+ 5f4:	4a 30       	cpi	r20, 0x0A	; 10
+ 5f6:	31 f4       	brne	.+12     	; 0x604 <__itoa_ncheck+0x12>
+ 5f8:	99 23       	and	r25, r25
+ 5fa:	22 f4       	brpl	.+8      	; 0x604 <__itoa_ncheck+0x12>
+ 5fc:	bd e2       	ldi	r27, 0x2D	; 45
+ 5fe:	90 95       	com	r25
+ 600:	81 95       	neg	r24
+ 602:	9f 4f       	sbci	r25, 0xFF	; 255
+ 604:	01 c0       	rjmp	.+2      	; 0x608 <__utoa_common>
+
+00000606 <__utoa_ncheck>:
+ 606:	bb 27       	eor	r27, r27
+
+00000608 <__utoa_common>:
+ 608:	fb 01       	movw	r30, r22
+ 60a:	55 27       	eor	r21, r21
+ 60c:	aa 27       	eor	r26, r26
+ 60e:	88 0f       	add	r24, r24
+ 610:	99 1f       	adc	r25, r25
+ 612:	aa 1f       	adc	r26, r26
+ 614:	a4 17       	cp	r26, r20
+ 616:	10 f0       	brcs	.+4      	; 0x61c <__utoa_common+0x14>
+ 618:	a4 1b       	sub	r26, r20
+ 61a:	83 95       	inc	r24
+ 61c:	50 51       	subi	r21, 0x10	; 16
+ 61e:	b9 f7       	brne	.-18     	; 0x60e <__utoa_common+0x6>
+ 620:	a0 5d       	subi	r26, 0xD0	; 208
+ 622:	aa 33       	cpi	r26, 0x3A	; 58
+ 624:	08 f0       	brcs	.+2      	; 0x628 <__utoa_common+0x20>
+ 626:	a9 5d       	subi	r26, 0xD9	; 217
+ 628:	a1 93       	st	Z+, r26
+ 62a:	00 97       	sbiw	r24, 0x00	; 0
+ 62c:	79 f7       	brne	.-34     	; 0x60c <__utoa_common+0x4>
+ 62e:	b1 11       	cpse	r27, r1
+ 630:	b1 93       	st	Z+, r27
+ 632:	11 92       	st	Z+, r1
+ 634:	cb 01       	movw	r24, r22
+ 636:	00 c0       	rjmp	.+0      	; 0x638 <strrev>
+
+00000638 <strrev>:
+ 638:	dc 01       	movw	r26, r24
+ 63a:	fc 01       	movw	r30, r24
+ 63c:	67 2f       	mov	r22, r23
+ 63e:	71 91       	ld	r23, Z+
+ 640:	77 23       	and	r23, r23
+ 642:	e1 f7       	brne	.-8      	; 0x63c <strrev+0x4>
+ 644:	32 97       	sbiw	r30, 0x02	; 2
+ 646:	04 c0       	rjmp	.+8      	; 0x650 <strrev+0x18>
+ 648:	7c 91       	ld	r23, X
+ 64a:	6d 93       	st	X+, r22
+ 64c:	70 83       	st	Z, r23
+ 64e:	62 91       	ld	r22, -Z
+ 650:	ae 17       	cp	r26, r30
+ 652:	bf 07       	cpc	r27, r31
+ 654:	c8 f3       	brcs	.-14     	; 0x648 <strrev+0x10>
+ 656:	08 95       	ret
+
+00000658 <_exit>:
+ 658:	f8 94       	cli
+
+0000065a <__stop_program>:
+ 65a:	ff cf       	rjmp	.-2      	; 0x65a <__stop_program>

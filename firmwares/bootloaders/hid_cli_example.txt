@@ -1,0 +1,5 @@
+wmic path CIM_LogicalDevice where "DeviceID like '%6969%' and DeviceID like '%HID%'" get /value
+
+hid_bootloader_cli_win_vs.exe -v -w -mmcu=at90usb1287 at90blink.hex
+
+hid_bootloader_cli_win_vs.exe -v -w -mmcu=atmega32u4  leoblink.hex

@@ -1,0 +1,1 @@
+"C:\arduino\hardware\tools\avr\bin\avr-objcopy.exe" -I ihex input.hex -O binary FLASH.BIN

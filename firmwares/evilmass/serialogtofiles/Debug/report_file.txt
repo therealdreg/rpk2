@@ -1,0 +1,18 @@
+./files_recv/1639352710
+found last block
+last block adler32: 0xE4A518B5
+last block size of file: 0x0000006C
+last block tag name:   C:\topsecret_1.txt
+correct adler32
+adler32 calculated: 0xE4A518B5
+nr last block: 3
+
+./files_recv/1639352777
+found last block
+last block adler32: 0x9CD307E8
+last block size of file: 0x00000016
+last block tag name:   C:\topsecret_2.txt
+correct adler32
+adler32 calculated: 0x9CD307E8
+nr last block: 0
+

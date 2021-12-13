@@ -1,0 +1,15 @@
+﻿Build started 2021-11-30 07:53:19.
+     1>Project "C:\Users\xia\Desktop\rpk2\firmwares\bootloaders\hid_bootloader_cli_win_vs\hid_bootloader_cli_win_vs\hid_bootloader_cli_win_vs.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\xia\Desktop\rpk2\firmwares\bootloaders\hid_bootloader_cli_win_vs\Release\hid_bootloader_cli_win_vs.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\xia\Desktop\rpk2\firmwares\bootloaders\hid_bootloader_cli_win_vs\Release\hid_bootloader_cli_win_vs.pdb" /SUBSYSTEM:CONSOLE,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\xia\Desktop\rpk2\firmwares\bootloaders\hid_bootloader_cli_win_vs\Release\hid_bootloader_cli_win_vs.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Generating code
+         Finished generating code
+         hid_bootloader_cli_win_vs.vcxproj -> C:\Users\xia\Desktop\rpk2\firmwares\bootloaders\hid_bootloader_cli_win_vs\Release\hid_bootloader_cli_win_vs.exe
+     1>Done Building Project "C:\Users\xia\Desktop\rpk2\firmwares\bootloaders\hid_bootloader_cli_win_vs\hid_bootloader_cli_win_vs\hid_bootloader_cli_win_vs.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.49

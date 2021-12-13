@@ -1,0 +1,27 @@
+set -x 
+
+# EDIT THIS!!!!
+
+echo "WARNING always use /dev/sdd without the number, never use: /dev/sdd1"
+#sd_dev=/dev/sdd
+sd_dev=/dev/sdc
+
+if [[ $sd_dev = *?[0-9] ]] 
+then
+	echo "remove the end number of the device!!"
+	return
+fi
+
+cat /proc/partitions
+
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+echo -ne "${RED}\r\nWARNING!!!: THIS SCRIPT CAN EDIT ${sd_dev} (cancel with CTRL+C)\r\n\r\n${NC}"
+
+echo "waiting 5 secs..."
+
+# sleep 5
+
+cd "$(dirname "${BASH_SOURCE[0]}")"
+
+apt-cyg install zip unzip
