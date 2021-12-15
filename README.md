@@ -2,6 +2,9 @@
 
 https://rootkit.es/
 
+Tools for rpk2:
+- https://github.com/therealdreg/rpk2/releases/download/tools_rpk2/tools_rpk2.zip
+
 All firmware (.hex and .elf files) + code in this repository
 
 ```
