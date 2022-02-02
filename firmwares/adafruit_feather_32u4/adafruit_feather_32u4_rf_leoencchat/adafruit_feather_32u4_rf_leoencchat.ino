@@ -80,9 +80,9 @@ void serial_to_rf() {
 }
 
 void loop() {
-  uint8_t rec_buf[RH_RF69_MAX_MESSAGE_LEN];
+  uint8_t rec_buf[RH_RF69_MAX_MESSAGE_LEN + 1] = { 0 };
   uint8_t len = sizeof(rec_buf);
-  char rfdata[RH_RF69_MAX_MESSAGE_LEN];
+  char rfdata[RH_RF69_MAX_MESSAGE_LEN + 1] = { 0 };
 
   // Check if there is any character to read
   if (Serial.available()) {
@@ -103,6 +103,7 @@ void loop() {
       Serial.print("Feather: "); Serial.println(serial_input);
       // Clear input buffer
       serial_input = "";
+      memset(rfdata,0,sizeof(rfdata));
     }
   }
 
@@ -110,6 +111,7 @@ void loop() {
   if (rf69.recv(rec_buf, &len)) {
     if (!len) return;
     Serial.print("Leo:"); Serial.println((char*)rec_buf);
+    memset(rec_buf,0,sizeof(rec_buf));
   }
 
   
