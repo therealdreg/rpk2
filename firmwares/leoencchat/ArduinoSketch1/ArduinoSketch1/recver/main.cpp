@@ -168,12 +168,11 @@ void loop() {
 	char rfdata[RH_RF69_MAX_MESSAGE_LEN];
 
   // Check if there is any character to read
-	if (Serial1.available()) {
+	while (Serial1.available()) {
 		// Read 1 byte
 		char input_char = (char)Serial1.read();
 		    if (input_char != '\n'  && input_char != '\r') {
 			    serial_input += input_char;
-			    Serial1.print("Current data: "); Serial1.println(serial_input);
 		    }
 				// If eol clean input and send it through rf
 				if (input_char == '\n') {
@@ -191,7 +190,7 @@ void loop() {
   // Check if there is anything to receive
   if (rf69.recv(rec_buf, &len)) {
 	  if (!len) return;
-	  Serial1.print("Feather:"); Serial1.println((char*)rec_buf);
+	  Serial1.print("Feather: "); Serial1.println((char*)rec_buf);
   }
 
 	delay(1000);
