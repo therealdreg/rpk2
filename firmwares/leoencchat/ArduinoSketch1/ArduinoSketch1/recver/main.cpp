@@ -193,5 +193,6 @@ void loop() {
 	  Serial1.print("Feather: "); Serial1.println((char*)rec_buf);
   }
 
-	delay(1000);
+	// Delay between loop iterations
+	delay(500);
 }

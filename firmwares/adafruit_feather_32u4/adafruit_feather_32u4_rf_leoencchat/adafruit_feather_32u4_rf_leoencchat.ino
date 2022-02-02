@@ -113,6 +113,6 @@ void loop() {
     memset(rec_buf,0,sizeof(rec_buf));
   }
 
-  
-  delay(1000);
+  // Delay between loop iterations
+  delay(500);
 }

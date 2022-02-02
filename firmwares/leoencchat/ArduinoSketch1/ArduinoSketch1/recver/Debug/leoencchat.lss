@@ -527,9 +527,10 @@ void loop() {
      550:	0e 94 38 05 	call	0xa70	; 0xa70 <_ZN5Print7printlnEPKc>
   }
 
-	delay(1000);
-     554:	68 ee       	ldi	r22, 0xE8	; 232
-     556:	73 e0       	ldi	r23, 0x03	; 3
+	// Delay between loop iterations
+	delay(500);
+     554:	64 ef       	ldi	r22, 0xF4	; 244
+     556:	71 e0       	ldi	r23, 0x01	; 1
      558:	80 e0       	ldi	r24, 0x00	; 0
      55a:	90 e0       	ldi	r25, 0x00	; 0
      55c:	0e 94 96 0a 	call	0x152c	; 0x152c <delay>
@@ -589,11 +590,11 @@ void loop() {
      5b4:	93 e0       	ldi	r25, 0x03	; 3
      5b6:	0e 94 56 0c 	call	0x18ac	; 0x18ac <_ZN6StringaSEPKc>
      5ba:	99 cf       	rjmp	.-206    	; 0x4ee <loop+0x28>
-	  if (!len) return;
 	  Serial1.print("Feather: "); Serial1.println((char*)rec_buf);
   }
 
-	delay(1000);
+	// Delay between loop iterations
+	delay(500);
 }
      5bc:	c7 58       	subi	r28, 0x87	; 135
      5be:	df 4f       	sbci	r29, 0xFF	; 255
