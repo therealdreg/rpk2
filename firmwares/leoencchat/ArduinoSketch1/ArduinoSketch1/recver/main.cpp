@@ -43,12 +43,15 @@
 #define RFM69_RST     4  
 #define LED_1           8
 #define LED_2           9
+#define Serial Serial1
 
 RH_RF69 rf69(RFM69_CS, RFM69_INT);
 
-const int MAX_BUFF_SIZE = 40;		// Maximum recommended size for encrypted data
-String serial_input = "";       // hold serial input
-bool serial_eol = false;        // whether eol was found
+String serial_input = "";       // Hold serial input
+uint8_t rec_buf[RH_RF69_MAX_MESSAGE_LEN + 1] = { 0 }; // Received data through RF
+uint8_t rec_buf_len = sizeof(rec_buf);
+char rfdata[RH_RF69_MAX_MESSAGE_LEN + 1] = { 0 }; // Data to be sent through RF
+
 
 void switch_usb_to_at90(void)
 {
@@ -70,7 +73,7 @@ void switch_usb_to_at90(void)
 
 void setup() 
 {
-  Serial1.begin(9600);
+  Serial.begin(9600);
 
  switch_usb_to_at90();
     
@@ -83,8 +86,8 @@ void setup()
   pinMode(RFM69_RST, OUTPUT);
   digitalWrite(RFM69_RST, LOW);
 
-  Serial1.println("\r\n\r\nArduino Leonardo RFM69 RX Test!");
-  Serial1.println();
+  Serial.println("\r\n\r\nArduino Leonardo RFM69 RX Test!");
+  Serial.println();
 
   // manual reset
   digitalWrite(RFM69_RST, HIGH);
@@ -93,15 +96,15 @@ void setup()
   delay(10);
   
   if (!rf69.init()) {
-    Serial1.println("RFM69 radio init failed");
+    Serial.println("RFM69 radio init failed");
     while (1);
   }
-  Serial1.println("RFM69 radio init OK!");
+  Serial.println("RFM69 radio init OK!");
   
   // Defaults after init are 434.0MHz, modulation GFSK_Rb250Fd250, +13dbM (for low power module)
   // No encryption
   if (!rf69.setFrequency(RF69_FREQ)) {
-    Serial1.println("setFrequency failed");
+    Serial.println("setFrequency failed");
   }
 
   // If you are using a high power RF69 eg RFM69HW, you *must* set a Tx power with the
@@ -115,62 +118,15 @@ void setup()
   
 
 
-  Serial1.print("RFM69 radio @");  Serial1.print((int)RF69_FREQ);  Serial1.println(" MHz");
-}
-
-void rfread() {
-	 if (rf69.available()) {
-		 // Should be a message for us now
-		 uint8_t buf[RH_RF69_MAX_MESSAGE_LEN];
-		 uint8_t len = sizeof(buf);
-		 if (rf69.recv(buf, &len)) {
-			 if (!len) return;
-			 buf[len] = 0;
-			 Serial1.print("Received [");
-			 Serial1.print(len);
-			 Serial1.print("]: ");
-			 Serial1.println((char*)buf);
-			 Serial1.print("RSSI: ");
-			 Serial1.println(rf69.lastRssi(), DEC);
-		 }
-	 }
-}
-
-void serial_to_rf() {
-
-	// Make sure serial is available
-	while (Serial1.available()==0) {  }
-
-	// Read data from serial
-	String data = Serial1.readString();
-	char rfdata[RH_RF69_MAX_MESSAGE_LEN];
-	data.toCharArray(rfdata, RH_RF69_MAX_MESSAGE_LEN);
-	// Send a message!
-	rf69.send((uint8_t *)rfdata, strlen(rfdata));
-	rf69.waitPacketSent();
-	// Send own message through serial
-	Serial1.print("Leo: "); Serial1.println(data);
-}
-
-void echo_back()
-{
-	Serial1.println("Ready to type!");
-	while (Serial1.available()==0) {  }
-	// Read data from serial
-	String data = Serial1.readString();
-	// Send own message through serial
-	Serial1.print("Data: "); Serial1.println(data);
+  Serial.print("RFM69 radio @");  Serial.print((int)RF69_FREQ);  Serial.println(" MHz");
 }
 
 void loop() {
-	uint8_t rec_buf[RH_RF69_MAX_MESSAGE_LEN];
-	uint8_t len = sizeof(rec_buf);
-	char rfdata[RH_RF69_MAX_MESSAGE_LEN];
 
   // Check if there is any character to read
-	while (Serial1.available()) {
+	while (Serial.available()) {
 		// Read 1 byte
-		char input_char = (char)Serial1.read();
+		char input_char = (char)Serial.read();
 		    if (input_char != '\n'  && input_char != '\r') {
 			    serial_input += input_char;
 		    }
@@ -181,16 +137,18 @@ void loop() {
 					// Send the data
 					rf69.send((uint8_t *)rfdata, strlen(rfdata));
 					rf69.waitPacketSent();
-					Serial1.print("Leo: "); Serial1.println(serial_input);
+					Serial.print("Leo: "); Serial.println(serial_input);
 					// Clear input buffer
 					serial_input = "";
+					memset(rfdata, 0, strlen(rfdata));
 				}
 	}
 	
   // Check if there is anything to receive
-  if (rf69.recv(rec_buf, &len)) {
-	  if (!len) return;
-	  Serial1.print("Feather: "); Serial1.println((char*)rec_buf);
+  if (rf69.recv(rec_buf, &rec_buf_len)) {
+	  if (!rec_buf_len) return;
+	  Serial.print("Feather: "); Serial.println((char*)rec_buf);
+		memset(rec_buf, 0, rec_buf_len);
   }
 
 	// Delay between loop iterations
