@@ -8,18 +8,16 @@ C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\
                               C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o (main)
 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
                               C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o) (_ZN5Print5writeEPKhj)
-C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
-                              main.o (_ZN6Stream10readStringEv)
 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
                               C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o) (_ZN10USBDevice_6attachEv)
 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                              C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o) (millis)
+                              main.o (delay)
 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                               main.o (pinMode)
 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
                               main.o (_ZN6StringD1Ev)
 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                              main.o (_ZN15RHGenericDriver8lastRssiEv)
+                              main.o (_ZN15RHGenericDriver14waitPacketSentEv)
 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
                               main.o (hardware_spi)
 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
@@ -101,7 +99,7 @@ c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/..
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_dtors.o)
                               main.o (__do_global_dtors)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
-                              C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o) (__muluhisi3)
+                              C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o) (__muluhisi3)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o) (__umulhisi3)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
@@ -134,6 +132,8 @@ c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/..
                               C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o) (memcpy)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memmove.o)
                               C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o) (memmove)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+                              main.o (memset)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strchr.o)
                               C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strchr)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcmp.o)
@@ -201,14 +201,6 @@ Discarded input sections
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
- .text._Z6rfreadv
-                0x00000000       0xba main.o
- .text._Z9echo_backv
-                0x00000000       0x66 main.o
- .text._Z12serial_to_rfv
-                0x00000000       0xa6 main.o
- .bss.serial_eol
-                0x00000000        0x1 main.o
  .group         0x00000000        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
  .text          0x00000000        0x0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
  .data          0x00000000        0x0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
@@ -275,53 +267,6 @@ Discarded input sections
                 0x00000000       0x24 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .rodata._ZTV5Print
                 0x00000000        0xc C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text          0x00000000        0x0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .data          0x00000000        0x0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .bss           0x00000000        0x0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream9timedReadEv
-                0x00000000       0x60 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream9timedPeekEv
-                0x00000000       0x60 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream13peekNextDigitE13LookaheadModeb
-                0x00000000       0x78 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream10setTimeoutEm
-                0x00000000        0xc C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream8parseIntE13LookaheadModec
-                0x00000000       0xcc C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream10parseFloatE13LookaheadModec
-                0x00000000      0x12a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream9readBytesEPcj
-                0x00000000       0x4a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream14readBytesUntilEcPcj
-                0x00000000       0x5a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .rodata.str1.1
-                0x00000000        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream10readStringEv
-                0x00000000       0x34 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream15readStringUntilEc
-                0x00000000       0x4c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream9findMultiEPNS_11MultiTargetEi
-                0x00000000      0x132 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream9findUntilEPcjS0_j.part.0.constprop.1
-                0x00000000       0x4a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream4findEPcj
-                0x00000000        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream4findEPc
-                0x00000000       0x14 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream9findUntilEPcjS0_j
-                0x00000000       0x74 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream9findUntilEPcS0_
-                0x00000000       0x30 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .debug_info    0x00000000     0x21f7 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .debug_abbrev  0x00000000      0x48c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .debug_loc     0x00000000     0x143b C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .debug_aranges
-                0x00000000       0x98 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .debug_ranges  0x00000000       0xd0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .debug_line    0x00000000      0x5f7 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .debug_str     0x00000000     0x12ad C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .comment       0x00000000       0x31 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .debug_frame   0x00000000      0x2e4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
  .group         0x00000000        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .text          0x00000000        0x0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .data          0x00000000        0x0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
@@ -946,6 +891,9 @@ Discarded input sections
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memmove.o)
  .text.avr-libc
                 0x00000000       0x24 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memmove.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strchr.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strchr.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strchr.o)
@@ -1233,7 +1181,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x3852
+.text           0x00000000     0x3856
  *(.vectors)
  .vectors       0x00000000       0xac C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
                 0x00000000                __vector_default
@@ -1377,598 +1325,601 @@ END GROUP
                 0x0000036c        0x8 main.o
  .text.setup    0x00000374      0x152 main.o
                 0x00000374                setup
- .text.loop     0x000004c6      0x10e main.o
+ .text.loop     0x000004c6      0x104 main.o
                 0x000004c6                loop
  .text._ZN14HardwareSerial9availableEv
-                0x000005d4       0x18 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000005d4                _ZN14HardwareSerial9availableEv
+                0x000005ca       0x18 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000005ca                _ZN14HardwareSerial9availableEv
  .text._ZN14HardwareSerial4peekEv
-                0x000005ec       0x1c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000005ec                _ZN14HardwareSerial4peekEv
+                0x000005e2       0x1c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000005e2                _ZN14HardwareSerial4peekEv
  .text._ZN14HardwareSerial4readEv
-                0x00000608       0x28 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000608                _ZN14HardwareSerial4readEv
+                0x000005fe       0x28 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000005fe                _ZN14HardwareSerial4readEv
  .text._ZN14HardwareSerial17availableForWriteEv
-                0x00000630       0x1e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000630                _ZN14HardwareSerial17availableForWriteEv
+                0x00000626       0x1e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000626                _ZN14HardwareSerial17availableForWriteEv
  .text._Z14serialEventRunv
-                0x0000064e       0x1c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x0000064e                _Z14serialEventRunv
+                0x00000644       0x1c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000644                _Z14serialEventRunv
  .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
-                0x0000066a       0x42 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x0000066a                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x00000660       0x42 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000660                _ZN14HardwareSerial17_tx_udr_empty_irqEv
  .text._ZN14HardwareSerial5writeEh
-                0x000006ac       0x98 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000006ac                _ZN14HardwareSerial5writeEh
+                0x000006a2       0x98 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000006a2                _ZN14HardwareSerial5writeEh
  .text._ZN14HardwareSerial5flushEv
-                0x00000744       0x44 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000744                _ZN14HardwareSerial5flushEv
+                0x0000073a       0x44 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000073a                _ZN14HardwareSerial5flushEv
  .text._ZN14HardwareSerial5beginEmh
-                0x00000788       0xca C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000788                _ZN14HardwareSerial5beginEmh
+                0x0000077e       0xca C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000077e                _ZN14HardwareSerial5beginEmh
  .text.__vector_25
-                0x00000852       0x64 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
-                0x00000852                __vector_25
+                0x00000848       0x64 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
+                0x00000848                __vector_25
  .text.__vector_26
-                0x000008b6       0x4c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
-                0x000008b6                __vector_26
+                0x000008ac       0x4c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
+                0x000008ac                __vector_26
  .text._Z17Serial1_availablev
-                0x00000902       0x14 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
-                0x00000902                _Z17Serial1_availablev
+                0x000008f8       0x14 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
+                0x000008f8                _Z17Serial1_availablev
  .text.startup._GLOBAL__sub_I___vector_25
-                0x00000916       0x5a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
+                0x0000090c       0x5a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
  .text.initVariant
-                0x00000970        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x00000970                initVariant
+                0x00000966        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00000966                initVariant
  .text.startup.main
-                0x00000972       0x26 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x00000972                main
+                0x00000968       0x26 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00000968                main
  .text._ZN5Print5writeEPKhj
-                0x00000998       0x54 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00000998                _ZN5Print5writeEPKhj
+                0x0000098e       0x54 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x0000098e                _ZN5Print5writeEPKhj
  .text._ZN5Print5writeEPKc
-                0x000009ec       0x2a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x000009ec                _ZN5Print5writeEPKc
+                0x000009e2       0x2a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000009e2                _ZN5Print5writeEPKc
  .text._ZN5Print5printERK6String
-                0x00000a16       0x1c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00000a16                _ZN5Print5printERK6String
+                0x00000a0c       0x1c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000a0c                _ZN5Print5printERK6String
  .text._ZN5Print5printEPKc
-                0x00000a32        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00000a32                _ZN5Print5printEPKc
+                0x00000a28        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000a28                _ZN5Print5printEPKc
  .text._ZN5Print5printEc
-                0x00000a36        0xe C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00000a36                _ZN5Print5printEc
+                0x00000a2c        0xe C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000a2c                _ZN5Print5printEc
  .text._ZN5Print7printlnEv
-                0x00000a44        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00000a44                _ZN5Print7printlnEv
+                0x00000a3a        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000a3a                _ZN5Print7printlnEv
  .text._ZN5Print7printlnERK6String
-                0x00000a4c       0x24 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00000a4c                _ZN5Print7printlnERK6String
+                0x00000a42       0x24 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000a42                _ZN5Print7printlnERK6String
  .text._ZN5Print7printlnEPKc
-                0x00000a70       0x24 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00000a70                _ZN5Print7printlnEPKc
+                0x00000a66       0x24 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000a66                _ZN5Print7printlnEPKc
  .text._ZN5Print11printNumberEmh
-                0x00000a94       0x92 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00000a94                _ZN5Print11printNumberEmh
+                0x00000a8a       0x92 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000a8a                _ZN5Print11printNumberEmh
  .text._ZN5Print5printEli
-                0x00000b26       0x90 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00000b26                _ZN5Print5printEli
+                0x00000b1c       0x90 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000b1c                _ZN5Print5printEli
  .text._ZN5Print5printEii
-                0x00000bb6        0xe C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00000bb6                _ZN5Print5printEii
+                0x00000bac        0xe C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000bac                _ZN5Print5printEii
  .text._ZL4RecvPVhh
-                0x00000bc4       0x1a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000bba       0x1a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .text._ZL11SendControlh
-                0x00000bde       0x5c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000bd4       0x5c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .text._ZL24USB_SendStringDescriptorPKhhh
-                0x00000c3a       0x6a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000c30       0x6a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .text._ZL15USB_ClockEnablev
-                0x00000ca4       0x46 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000c9a       0x46 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .text._ZL14SendInterfacesv
-                0x00000cea       0x2c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000ce0       0x2c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .text._ZN6LockEPC2Eh
-                0x00000d16       0x10 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00000d16                _ZN6LockEPC2Eh
-                0x00000d16                _ZN6LockEPC1Eh
+                0x00000d0c       0x10 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000d0c                _ZN6LockEPC2Eh
+                0x00000d0c                _ZN6LockEPC1Eh
  .text._Z13USB_Availableh
-                0x00000d26       0x24 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00000d26                _Z13USB_Availableh
+                0x00000d1c       0x24 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000d1c                _Z13USB_Availableh
  .text._Z8USB_RecvhPvi
-                0x00000d4a       0x86 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00000d4a                _Z8USB_RecvhPvi
+                0x00000d40       0x86 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000d40                _Z8USB_RecvhPvi
  .text._Z8USB_Recvh
-                0x00000dd0       0x2e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00000dd0                _Z8USB_Recvh
+                0x00000dc6       0x2e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000dc6                _Z8USB_Recvh
  .text._Z13USB_SendSpaceh
-                0x00000dfe       0x34 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00000dfe                _Z13USB_SendSpaceh
+                0x00000df4       0x34 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000df4                _Z13USB_SendSpaceh
  .text._Z8USB_SendhPKvi
-                0x00000e32      0x14a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00000e32                _Z8USB_SendhPKvi
+                0x00000e28      0x14a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000e28                _Z8USB_SendhPKvi
  .text._Z11InitControli
-                0x00000f7c       0x16 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00000f7c                _Z11InitControli
+                0x00000f72       0x16 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000f72                _Z11InitControli
  .text._Z15USB_SendControlhPKvi
-                0x00000f92       0x4e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00000f92                _Z15USB_SendControlhPKvi
+                0x00000f88       0x4e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000f88                _Z15USB_SendControlhPKvi
  .text._Z15USB_RecvControlPvi
-                0x00000fe0       0x66 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00000fe0                _Z15USB_RecvControlPvi
+                0x00000fd6       0x66 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000fd6                _Z15USB_RecvControlPvi
  .text.__vector_11
-                0x00001046      0x2b4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00001046                __vector_11
+                0x0000103c      0x2b4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0000103c                __vector_11
  .text._Z9USB_Flushh
-                0x000012fa       0x14 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x000012fa                _Z9USB_Flushh
+                0x000012f0       0x14 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x000012f0                _Z9USB_Flushh
  .text.__vector_10
-                0x0000130e      0x102 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x0000130e                __vector_10
+                0x00001304      0x102 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00001304                __vector_10
  .text._ZN10USBDevice_6attachEv
-                0x00001410       0x26 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00001410                _ZN10USBDevice_6attachEv
+                0x00001406       0x26 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00001406                _ZN10USBDevice_6attachEv
  .text.__vector_23
-                0x00001436       0x94 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00001436                __vector_23
- .text.millis   0x000014ca       0x18 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x000014ca                millis
- .text.micros   0x000014e2       0x4a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x000014e2                micros
- .text.delay    0x0000152c       0x78 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x0000152c                delay
- .text.init     0x000015a4       0xac C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x000015a4                init
+                0x0000142c       0x94 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x0000142c                __vector_23
+ .text.millis   0x000014c0       0x18 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x000014c0                millis
+ .text.micros   0x000014d8       0x4a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x000014d8                micros
+ .text.delay    0x00001522       0x78 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00001522                delay
+ .text.init     0x0000159a       0xac C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x0000159a                init
  .text.turnOffPWM
-                0x00001650       0x7a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .text.pinMode  0x000016ca       0x78 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x000016ca                pinMode
+                0x00001646       0x7a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .text.pinMode  0x000016c0       0x78 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000016c0                pinMode
  .text.digitalWrite
-                0x00001742       0x5e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00001742                digitalWrite
+                0x00001738       0x5e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00001738                digitalWrite
  .text._ZN6StringD2Ev
-                0x000017a0       0x10 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000017a0                _ZN6StringD2Ev
-                0x000017a0                _ZN6StringD1Ev
+                0x00001796       0x10 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00001796                _ZN6StringD2Ev
+                0x00001796                _ZN6StringD1Ev
  .text._ZN6String10invalidateEv
-                0x000017b0       0x24 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000017b0                _ZN6String10invalidateEv
+                0x000017a6       0x24 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000017a6                _ZN6String10invalidateEv
  .text._ZN6String12changeBufferEj
-                0x000017d4       0x34 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000017d4                _ZN6String12changeBufferEj
+                0x000017ca       0x34 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000017ca                _ZN6String12changeBufferEj
  .text._ZN6String7reserveEj
-                0x00001808       0x38 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00001808                _ZN6String7reserveEj
+                0x000017fe       0x38 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000017fe                _ZN6String7reserveEj
  .text._ZN6String4copyEPKcj
-                0x00001840       0x42 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00001840                _ZN6String4copyEPKcj
+                0x00001836       0x42 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00001836                _ZN6String4copyEPKcj
  .text._ZN6StringC2EPKc
-                0x00001882       0x2a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00001882                _ZN6StringC2EPKc
-                0x00001882                _ZN6StringC1EPKc
+                0x00001878       0x2a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00001878                _ZN6StringC2EPKc
+                0x00001878                _ZN6StringC1EPKc
  .text._ZN6StringaSEPKc
-                0x000018ac       0x2e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000018ac                _ZN6StringaSEPKc
+                0x000018a2       0x2e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000018a2                _ZN6StringaSEPKc
  .text._ZN6String6concatEPKcj
-                0x000018da       0x5c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000018da                _ZN6String6concatEPKcj
+                0x000018d0       0x5c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000018d0                _ZN6String6concatEPKcj
  .text._ZN6String6concatEc
-                0x00001936       0x26 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00001936                _ZN6String6concatEc
+                0x0000192c       0x26 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x0000192c                _ZN6String6concatEc
  .text._ZNK6String8getBytesEPhjj
-                0x0000195c       0x5e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x0000195c                _ZNK6String8getBytesEPhjj
+                0x00001952       0x5e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00001952                _ZNK6String8getBytesEPhjj
  .text._ZN15RHGenericDriver4initEv
-                0x000019ba        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x000019ba                _ZN15RHGenericDriver4initEv
+                0x000019b0        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x000019b0                _ZN15RHGenericDriver4initEv
  .text._ZN15RHGenericDriver14setPromiscuousEb
-                0x000019be        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x000019be                _ZN15RHGenericDriver14setPromiscuousEb
+                0x000019b4        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x000019b4                _ZN15RHGenericDriver14setPromiscuousEb
  .text._ZN15RHGenericDriver14setThisAddressEh
-                0x000019c4        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x000019c4                _ZN15RHGenericDriver14setThisAddressEh
+                0x000019ba        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x000019ba                _ZN15RHGenericDriver14setThisAddressEh
  .text._ZN15RHGenericDriver11setHeaderToEh
-                0x000019ca        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x000019ca                _ZN15RHGenericDriver11setHeaderToEh
+                0x000019c0        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x000019c0                _ZN15RHGenericDriver11setHeaderToEh
  .text._ZN15RHGenericDriver13setHeaderFromEh
-                0x000019d0        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x000019d0                _ZN15RHGenericDriver13setHeaderFromEh
+                0x000019c6        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x000019c6                _ZN15RHGenericDriver13setHeaderFromEh
  .text._ZN15RHGenericDriver11setHeaderIdEh
-                0x000019d6        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x000019d6                _ZN15RHGenericDriver11setHeaderIdEh
+                0x000019cc        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x000019cc                _ZN15RHGenericDriver11setHeaderIdEh
  .text._ZN15RHGenericDriver14setHeaderFlagsEhh
-                0x000019dc        0xe C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x000019dc                _ZN15RHGenericDriver14setHeaderFlagsEhh
+                0x000019d2        0xe C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x000019d2                _ZN15RHGenericDriver14setHeaderFlagsEhh
  .text._ZN15RHGenericDriver8headerToEv
-                0x000019ea        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x000019ea                _ZN15RHGenericDriver8headerToEv
+                0x000019e0        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x000019e0                _ZN15RHGenericDriver8headerToEv
  .text._ZN15RHGenericDriver10headerFromEv
-                0x000019f0        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x000019f0                _ZN15RHGenericDriver10headerFromEv
+                0x000019e6        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x000019e6                _ZN15RHGenericDriver10headerFromEv
  .text._ZN15RHGenericDriver8headerIdEv
-                0x000019f6        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x000019f6                _ZN15RHGenericDriver8headerIdEv
+                0x000019ec        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x000019ec                _ZN15RHGenericDriver8headerIdEv
  .text._ZN15RHGenericDriver11headerFlagsEv
-                0x000019fc        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x000019fc                _ZN15RHGenericDriver11headerFlagsEv
+                0x000019f2        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x000019f2                _ZN15RHGenericDriver11headerFlagsEv
  .text._ZN15RHGenericDriver8lastRssiEv
-                0x00001a02        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x00001a02                _ZN15RHGenericDriver8lastRssiEv
+                0x000019f8        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x000019f8                _ZN15RHGenericDriver8lastRssiEv
  .text._ZN15RHGenericDriver4modeEv
-                0x00001a0a        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x00001a0a                _ZN15RHGenericDriver4modeEv
+                0x00001a00        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x00001a00                _ZN15RHGenericDriver4modeEv
  .text._ZN15RHGenericDriver7setModeENS_6RHModeE
-                0x00001a10        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x00001a10                _ZN15RHGenericDriver7setModeENS_6RHModeE
+                0x00001a06        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x00001a06                _ZN15RHGenericDriver7setModeENS_6RHModeE
  .text._ZN15RHGenericDriver5sleepEv
-                0x00001a16        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x00001a16                _ZN15RHGenericDriver15isChannelActiveEv
-                0x00001a16                _ZN15RHGenericDriver5sleepEv
+                0x00001a0c        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x00001a0c                _ZN15RHGenericDriver15isChannelActiveEv
+                0x00001a0c                _ZN15RHGenericDriver5sleepEv
  .text._ZN15RHGenericDriver5rxBadEv
-                0x00001a1a        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x00001a1a                _ZN15RHGenericDriver5rxBadEv
+                0x00001a10        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x00001a10                _ZN15RHGenericDriver5rxBadEv
  .text._ZN15RHGenericDriver6rxGoodEv
-                0x00001a22        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x00001a22                _ZN15RHGenericDriver6rxGoodEv
+                0x00001a18        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x00001a18                _ZN15RHGenericDriver6rxGoodEv
  .text._ZN15RHGenericDriver6txGoodEv
-                0x00001a2a        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x00001a2a                _ZN15RHGenericDriver6txGoodEv
+                0x00001a20        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x00001a20                _ZN15RHGenericDriver6txGoodEv
  .text._ZN15RHGenericDriver13waitAvailableEv
-                0x00001a32       0x24 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x00001a32                _ZN15RHGenericDriver13waitAvailableEv
+                0x00001a28       0x24 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x00001a28                _ZN15RHGenericDriver13waitAvailableEv
  .text._ZN15RHGenericDriver14waitPacketSentEv
-                0x00001a56       0x1a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x00001a56                _ZN15RHGenericDriver14waitPacketSentEv
+                0x00001a4c       0x1a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x00001a4c                _ZN15RHGenericDriver14waitPacketSentEv
  .text._ZN15RHGenericDriver20waitAvailableTimeoutEj
-                0x00001a70       0x6e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x00001a70                _ZN15RHGenericDriver20waitAvailableTimeoutEj
+                0x00001a66       0x6e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x00001a66                _ZN15RHGenericDriver20waitAvailableTimeoutEj
  .text._ZN15RHGenericDriver14waitPacketSentEj
-                0x00001ade       0x66 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x00001ade                _ZN15RHGenericDriver14waitPacketSentEj
+                0x00001ad4       0x66 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x00001ad4                _ZN15RHGenericDriver14waitPacketSentEj
  .text._ZN15RHGenericDriver7waitCADEv
-                0x00001b44       0x8e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x00001b44                _ZN15RHGenericDriver7waitCADEv
+                0x00001b3a       0x8e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x00001b3a                _ZN15RHGenericDriver7waitCADEv
  .text._ZN15RHGenericDriverC2Ev
-                0x00001bd2       0x2a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x00001bd2                _ZN15RHGenericDriverC1Ev
-                0x00001bd2                _ZN15RHGenericDriverC2Ev
+                0x00001bc8       0x2a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x00001bc8                _ZN15RHGenericDriverC1Ev
+                0x00001bc8                _ZN15RHGenericDriverC2Ev
  .text._ZN13RHHardwareSPI8transferEh
-                0x00001bfc        0xe C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
-                0x00001bfc                _ZN13RHHardwareSPI8transferEh
+                0x00001bf2        0xe C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+                0x00001bf2                _ZN13RHHardwareSPI8transferEh
  .text._ZN13RHHardwareSPI15attachInterruptEv
-                0x00001c0a        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
-                0x00001c0a                _ZN13RHHardwareSPI15attachInterruptEv
+                0x00001c00        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+                0x00001c00                _ZN13RHHardwareSPI15attachInterruptEv
  .text._ZN13RHHardwareSPI15detachInterruptEv
-                0x00001c12        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
-                0x00001c12                _ZN13RHHardwareSPI15detachInterruptEv
+                0x00001c08        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+                0x00001c08                _ZN13RHHardwareSPI15detachInterruptEv
  .text._ZN13RHHardwareSPI16beginTransactionEv
-                0x00001c1a       0x3a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
-                0x00001c1a                _ZN13RHHardwareSPI16beginTransactionEv
+                0x00001c10       0x3a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+                0x00001c10                _ZN13RHHardwareSPI16beginTransactionEv
  .text._ZN13RHHardwareSPI14usingInterruptEh
-                0x00001c54        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
-                0x00001c54                _ZN13RHHardwareSPI14usingInterruptEh
+                0x00001c4a        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+                0x00001c4a                _ZN13RHHardwareSPI14usingInterruptEh
  .text._ZN13RHHardwareSPI5beginEv
-                0x00001c56       0xb2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
-                0x00001c56                _ZN13RHHardwareSPI5beginEv
+                0x00001c4c       0xb2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+                0x00001c4c                _ZN13RHHardwareSPI5beginEv
  .text._ZN13RHHardwareSPI3endEv
-                0x00001d08        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
-                0x00001d08                _ZN13RHHardwareSPI3endEv
+                0x00001cfe        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+                0x00001cfe                _ZN13RHHardwareSPI3endEv
  .text._ZN13RHHardwareSPI14endTransactionEv
-                0x00001d0c       0x22 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
-                0x00001d0c                _ZN13RHHardwareSPI14endTransactionEv
+                0x00001d02       0x22 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+                0x00001d02                _ZN13RHHardwareSPI14endTransactionEv
  .text._ZN13RHHardwareSPIC2EN12RHGenericSPI9FrequencyENS0_8BitOrderENS0_8DataModeE
-                0x00001d2e       0x1e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
-                0x00001d2e                _ZN13RHHardwareSPIC2EN12RHGenericSPI9FrequencyENS0_8BitOrderENS0_8DataModeE
-                0x00001d2e                _ZN13RHHardwareSPIC1EN12RHGenericSPI9FrequencyENS0_8BitOrderENS0_8DataModeE
+                0x00001d24       0x1e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+                0x00001d24                _ZN13RHHardwareSPIC2EN12RHGenericSPI9FrequencyENS0_8BitOrderENS0_8DataModeE
+                0x00001d24                _ZN13RHHardwareSPIC1EN12RHGenericSPI9FrequencyENS0_8BitOrderENS0_8DataModeE
  .text.startup._GLOBAL__sub_I_hardware_spi
-                0x00001d4c        0xe C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+                0x00001d42        0xe C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
  .text._ZN7RH_RF6916maxMessageLengthEv
-                0x00001d5a        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x00001d5a                _ZN7RH_RF6916maxMessageLengthEv
+                0x00001d50        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00001d50                _ZN7RH_RF6916maxMessageLengthEv
  .text._ZN7RH_RF6916setEncryptionKeyEPh.part.4.constprop.5
-                0x00001d5e       0x1c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00001d54       0x1c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
  .text._ZN7RH_RF694recvEPhS0_
-                0x00001d7a       0x74 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x00001d7a                _ZN7RH_RF694recvEPhS0_
+                0x00001d70       0x74 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00001d70                _ZN7RH_RF694recvEPhS0_
  .text._ZN7RH_RF695sleepEv
-                0x00001dee       0x22 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x00001dee                _ZN7RH_RF695sleepEv
+                0x00001de4       0x22 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00001de4                _ZN7RH_RF695sleepEv
  .text._ZN7RH_RF69C2EhhR12RHGenericSPI
-                0x00001e10       0x2a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x00001e10                _ZN7RH_RF69C2EhhR12RHGenericSPI
-                0x00001e10                _ZN7RH_RF69C1EhhR12RHGenericSPI
+                0x00001e06       0x2a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00001e06                _ZN7RH_RF69C2EhhR12RHGenericSPI
+                0x00001e06                _ZN7RH_RF69C1EhhR12RHGenericSPI
  .text._ZN7RH_RF698readFifoEv
-                0x00001e3a      0x144 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x00001e3a                _ZN7RH_RF698readFifoEv
+                0x00001e30      0x144 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00001e30                _ZN7RH_RF698readFifoEv
  .text._ZN7RH_RF6912setFrequencyEff
-                0x00001f7e       0x6a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x00001f7e                _ZN7RH_RF6912setFrequencyEff
+                0x00001f74       0x6a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00001f74                _ZN7RH_RF6912setFrequencyEff
  .text._ZN7RH_RF699setOpModeEh
-                0x00001fe8       0x34 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x00001fe8                _ZN7RH_RF699setOpModeEh
+                0x00001fde       0x34 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00001fde                _ZN7RH_RF699setOpModeEh
  .text._ZN7RH_RF6911setModeIdleEv
-                0x0000201c       0x3a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x0000201c                _ZN7RH_RF6911setModeIdleEv
+                0x00002012       0x3a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00002012                _ZN7RH_RF6911setModeIdleEv
  .text._ZN7RH_RF6915handleInterruptEv
-                0x00002056       0x7a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x00002056                _ZN7RH_RF6915handleInterruptEv
+                0x0000204c       0x7a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x0000204c                _ZN7RH_RF6915handleInterruptEv
  .text._ZN7RH_RF694isr0Ev
-                0x000020d0       0x12 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x000020d0                _ZN7RH_RF694isr0Ev
+                0x000020c6       0x12 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x000020c6                _ZN7RH_RF694isr0Ev
  .text._ZN7RH_RF694isr1Ev
-                0x000020e2       0x12 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x000020e2                _ZN7RH_RF694isr1Ev
+                0x000020d8       0x12 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x000020d8                _ZN7RH_RF694isr1Ev
  .text._ZN7RH_RF694isr2Ev
-                0x000020f4       0x12 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x000020f4                _ZN7RH_RF694isr2Ev
+                0x000020ea       0x12 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x000020ea                _ZN7RH_RF694isr2Ev
  .text._ZN7RH_RF699setModeRxEv
-                0x00002106       0x44 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x00002106                _ZN7RH_RF699setModeRxEv
+                0x000020fc       0x44 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x000020fc                _ZN7RH_RF699setModeRxEv
  .text._ZN7RH_RF699availableEv
-                0x0000214a       0x22 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x0000214a                _ZN7RH_RF699availableEv
+                0x00002140       0x22 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00002140                _ZN7RH_RF699availableEv
  .text._ZN7RH_RF699setModeTxEv
-                0x0000216c       0x44 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x0000216c                _ZN7RH_RF699setModeTxEv
+                0x00002162       0x44 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00002162                _ZN7RH_RF699setModeTxEv
  .text._ZN7RH_RF694sendEPKhh
-                0x000021b0      0x116 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x000021b0                _ZN7RH_RF694sendEPKhh
+                0x000021a6      0x116 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x000021a6                _ZN7RH_RF694sendEPKhh
  .text._ZN7RH_RF6910setTxPowerEab
-                0x000022c6       0x50 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x000022c6                _ZN7RH_RF6910setTxPowerEab
+                0x000022bc       0x50 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x000022bc                _ZN7RH_RF6910setTxPowerEab
  .text._ZN7RH_RF6917setModemRegistersEPKNS_11ModemConfigE
-                0x00002316       0x3a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x00002316                _ZN7RH_RF6917setModemRegistersEPKNS_11ModemConfigE
+                0x0000230c       0x3a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x0000230c                _ZN7RH_RF6917setModemRegistersEPKNS_11ModemConfigE
  .text._ZN7RH_RF6914setModemConfigENS_17ModemConfigChoiceE
-                0x00002350       0x64 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x00002350                _ZN7RH_RF6914setModemConfigENS_17ModemConfigChoiceE
+                0x00002346       0x64 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00002346                _ZN7RH_RF6914setModemConfigENS_17ModemConfigChoiceE
  .text._ZN7RH_RF6917setPreambleLengthEj
-                0x000023b4       0x22 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x000023b4                _ZN7RH_RF6917setPreambleLengthEj
+                0x000023aa       0x22 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x000023aa                _ZN7RH_RF6917setPreambleLengthEj
  .text._ZN7RH_RF6912setSyncWordsEPKhh
-                0x000023d6       0x66 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x000023d6                _ZN7RH_RF6912setSyncWordsEPKhh
+                0x000023cc       0x66 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x000023cc                _ZN7RH_RF6912setSyncWordsEPKhh
  .text._ZN7RH_RF6916setEncryptionKeyEPh
-                0x0000243c       0x36 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x0000243c                _ZN7RH_RF6916setEncryptionKeyEPh
+                0x00002432       0x36 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00002432                _ZN7RH_RF6916setEncryptionKeyEPh
  .text._ZN7RH_RF694initEv
-                0x00002472      0x162 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x00002472                _ZN7RH_RF694initEv
+                0x00002468      0x162 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00002468                _ZN7RH_RF694initEv
  .text._ZN8SPIClass5beginEv
-                0x000025d4       0x6c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
-                0x000025d4                _ZN8SPIClass5beginEv
+                0x000025ca       0x6c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                0x000025ca                _ZN8SPIClass5beginEv
  .text._ZN8SPIClass3endEv
-                0x00002640       0x28 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
-                0x00002640                _ZN8SPIClass3endEv
+                0x00002636       0x28 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                0x00002636                _ZN8SPIClass3endEv
  .text.__cxa_pure_virtual
-                0x00002668        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
-                0x00002668                __cxa_pure_virtual
+                0x0000265e        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+                0x0000265e                __cxa_pure_virtual
  .text._ZN7Serial_5writeEh
-                0x0000266c       0x2c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x0000266c                _ZN7Serial_5writeEh
+                0x00002662       0x2c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00002662                _ZN7Serial_5writeEh
  .text._ZN7Serial_4peekEv
-                0x00002698       0x22 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x00002698                _ZN7Serial_4peekEv
+                0x0000268e       0x22 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x0000268e                _ZN7Serial_4peekEv
  .text._ZN7Serial_17availableForWriteEv
-                0x000026ba        0xa C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x000026ba                _ZN7Serial_17availableForWriteEv
+                0x000026b0        0xa C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x000026b0                _ZN7Serial_17availableForWriteEv
  .text._ZN7Serial_5flushEv
-                0x000026c4        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x000026c4                _ZN7Serial_5flushEv
+                0x000026ba        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x000026ba                _ZN7Serial_5flushEv
  .text._ZN7Serial_9availableEv
-                0x000026ca       0x20 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x000026ca                _ZN7Serial_9availableEv
+                0x000026c0       0x20 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x000026c0                _ZN7Serial_9availableEv
  .text._ZN7Serial_4readEv
-                0x000026ea       0x1a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x000026ea                _ZN7Serial_4readEv
+                0x000026e0       0x1a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x000026e0                _ZN7Serial_4readEv
  .text._ZN7Serial_5writeEPKhj
-                0x00002704       0x2c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x00002704                _ZN7Serial_5writeEPKhj
+                0x000026fa       0x2c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x000026fa                _ZN7Serial_5writeEPKhj
  .text._Z16isLUFAbootloaderv
-                0x00002730       0x14 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x00002730                _Z16isLUFAbootloaderv
+                0x00002726       0x14 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00002726                _Z16isLUFAbootloaderv
  .text._Z16CDC_GetInterfacePh
-                0x00002744       0x16 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x00002744                _Z16CDC_GetInterfacePh
+                0x0000273a       0x16 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x0000273a                _Z16CDC_GetInterfacePh
  .text._Z9CDC_SetupR8USBSetup
-                0x0000275a      0x11c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x0000275a                _Z9CDC_SetupR8USBSetup
+                0x00002750      0x11c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00002750                _Z9CDC_SetupR8USBSetup
  .text.startup._GLOBAL__sub_I__cdcInterface
-                0x00002876       0x2a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
- .text.__empty  0x000028a0        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
-                0x000028a0                yield
+                0x0000286c       0x2a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .text.__empty  0x00002896        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                0x00002896                yield
  .text._ZN13PluggableUSB_12getInterfaceEPh
-                0x000028a2       0x52 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
-                0x000028a2                _ZN13PluggableUSB_12getInterfaceEPh
+                0x00002898       0x52 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x00002898                _ZN13PluggableUSB_12getInterfaceEPh
  .text._ZN13PluggableUSB_13getDescriptorER8USBSetup
-                0x000028f4       0x3e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
-                0x000028f4                _ZN13PluggableUSB_13getDescriptorER8USBSetup
+                0x000028ea       0x3e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x000028ea                _ZN13PluggableUSB_13getDescriptorER8USBSetup
  .text._ZN13PluggableUSB_12getShortNameEPc
-                0x00002932       0x3e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
-                0x00002932                _ZN13PluggableUSB_12getShortNameEPc
+                0x00002928       0x3e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x00002928                _ZN13PluggableUSB_12getShortNameEPc
  .text._ZN13PluggableUSB_5setupER8USBSetup
-                0x00002970       0x3c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
-                0x00002970                _ZN13PluggableUSB_5setupER8USBSetup
+                0x00002966       0x3c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x00002966                _ZN13PluggableUSB_5setupER8USBSetup
  .text._Z12PluggableUSBv
-                0x000029ac       0x28 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
-                0x000029ac                _Z12PluggableUSBv
- .text.nothing  0x000029d4        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x000029a2       0x28 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x000029a2                _Z12PluggableUSBv
+ .text.nothing  0x000029ca        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
  .text.attachInterrupt
-                0x000029d6       0xa0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
-                0x000029d6                attachInterrupt
+                0x000029cc       0xa0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x000029cc                attachInterrupt
  .text.__vector_1
-                0x00002a76       0x4e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
-                0x00002a76                __vector_1
+                0x00002a6c       0x4e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00002a6c                __vector_1
  .text.__vector_2
-                0x00002ac4       0x4e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
-                0x00002ac4                __vector_2
+                0x00002aba       0x4e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00002aba                __vector_2
  .text.__vector_3
-                0x00002b12       0x4e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
-                0x00002b12                __vector_3
+                0x00002b08       0x4e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00002b08                __vector_3
  .text.__vector_4
-                0x00002b60       0x4e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
-                0x00002b60                __vector_4
+                0x00002b56       0x4e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00002b56                __vector_4
  .text.__vector_7
-                0x00002bae       0x4e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
-                0x00002bae                __vector_7
+                0x00002ba4       0x4e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00002ba4                __vector_7
  .text._Z6randoml
-                0x00002bfc       0x34 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
-                0x00002bfc                _Z6randoml
+                0x00002bf2       0x34 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+                0x00002bf2                _Z6randoml
  .text._Z6randomll
-                0x00002c30       0x44 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
-                0x00002c30                _Z6randomll
+                0x00002c26       0x44 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+                0x00002c26                _Z6randomll
  .text._ZN12RHGenericSPI15attachInterruptEv
-                0x00002c74        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
-                0x00002c74                _ZN12RHGenericSPI15attachInterruptEv
+                0x00002c6a        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+                0x00002c6a                _ZN12RHGenericSPI15attachInterruptEv
  .text._ZN12RHGenericSPI15detachInterruptEv
-                0x00002c76        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
-                0x00002c76                _ZN12RHGenericSPI15detachInterruptEv
+                0x00002c6c        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+                0x00002c6c                _ZN12RHGenericSPI15detachInterruptEv
  .text._ZN12RHGenericSPI16beginTransactionEv
-                0x00002c78        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
-                0x00002c78                _ZN12RHGenericSPI16beginTransactionEv
+                0x00002c6e        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+                0x00002c6e                _ZN12RHGenericSPI16beginTransactionEv
  .text._ZN12RHGenericSPI14endTransactionEv
-                0x00002c7a        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
-                0x00002c7a                _ZN12RHGenericSPI14endTransactionEv
+                0x00002c70        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+                0x00002c70                _ZN12RHGenericSPI14endTransactionEv
  .text._ZN12RHGenericSPI14usingInterruptEh
-                0x00002c7c        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
-                0x00002c7c                _ZN12RHGenericSPI14usingInterruptEh
+                0x00002c72        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+                0x00002c72                _ZN12RHGenericSPI14usingInterruptEh
  .text._ZN12RHGenericSPI11setBitOrderENS_8BitOrderE
-                0x00002c7e        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
-                0x00002c7e                _ZN12RHGenericSPI11setBitOrderENS_8BitOrderE
+                0x00002c74        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+                0x00002c74                _ZN12RHGenericSPI11setBitOrderENS_8BitOrderE
  .text._ZN12RHGenericSPI11setDataModeENS_8DataModeE
-                0x00002c84        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
-                0x00002c84                _ZN12RHGenericSPI11setDataModeENS_8DataModeE
+                0x00002c7a        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+                0x00002c7a                _ZN12RHGenericSPI11setDataModeENS_8DataModeE
  .text._ZN12RHGenericSPI12setFrequencyENS_9FrequencyE
-                0x00002c8a        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
-                0x00002c8a                _ZN12RHGenericSPI12setFrequencyENS_9FrequencyE
+                0x00002c80        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+                0x00002c80                _ZN12RHGenericSPI12setFrequencyENS_9FrequencyE
  .text._ZN12RHGenericSPIC2ENS_9FrequencyENS_8BitOrderENS_8DataModeE
-                0x00002c90       0x12 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
-                0x00002c90                _ZN12RHGenericSPIC1ENS_9FrequencyENS_8BitOrderENS_8DataModeE
-                0x00002c90                _ZN12RHGenericSPIC2ENS_9FrequencyENS_8BitOrderENS_8DataModeE
+                0x00002c86       0x12 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+                0x00002c86                _ZN12RHGenericSPIC1ENS_9FrequencyENS_8BitOrderENS_8DataModeE
+                0x00002c86                _ZN12RHGenericSPIC2ENS_9FrequencyENS_8BitOrderENS_8DataModeE
  .text._ZN11RHSPIDriver4initEv
-                0x00002ca2       0x3c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
-                0x00002ca2                _ZN11RHSPIDriver4initEv
+                0x00002c98       0x3c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
+                0x00002c98                _ZN11RHSPIDriver4initEv
  .text._ZN11RHSPIDriverC2EhR12RHGenericSPI
-                0x00002cde       0x2e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
-                0x00002cde                _ZN11RHSPIDriverC1EhR12RHGenericSPI
-                0x00002cde                _ZN11RHSPIDriverC2EhR12RHGenericSPI
+                0x00002cd4       0x2e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
+                0x00002cd4                _ZN11RHSPIDriverC1EhR12RHGenericSPI
+                0x00002cd4                _ZN11RHSPIDriverC2EhR12RHGenericSPI
  .text._ZN11RHSPIDriver7spiReadEh
-                0x00002d0c       0x7e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
-                0x00002d0c                _ZN11RHSPIDriver7spiReadEh
+                0x00002d02       0x7e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
+                0x00002d02                _ZN11RHSPIDriver7spiReadEh
  .text._ZN11RHSPIDriver8spiWriteEhh
-                0x00002d8a       0x84 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
-                0x00002d8a                _ZN11RHSPIDriver8spiWriteEhh
+                0x00002d80       0x84 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
+                0x00002d80                _ZN11RHSPIDriver8spiWriteEhh
  .text._ZN11RHSPIDriver13spiBurstWriteEhPKhh
-                0x00002e0e       0xa8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
-                0x00002e0e                _ZN11RHSPIDriver13spiBurstWriteEhPKhh
+                0x00002e04       0xa8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
+                0x00002e04                _ZN11RHSPIDriver13spiBurstWriteEhPKhh
  .text._ZN11RHSPIDriver17spiUsingInterruptEh
-                0x00002eb6       0x18 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
-                0x00002eb6                _ZN11RHSPIDriver17spiUsingInterruptEh
+                0x00002eac       0x18 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
+                0x00002eac                _ZN11RHSPIDriver17spiUsingInterruptEh
  .text.avr-libc.fplib
-                0x00002ece        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
-                0x00002ece                __divsf3
+                0x00002ec4        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x00002ec4                __divsf3
  .text.avr-libc.fplib
-                0x00002ed6       0xdc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
-                0x00002ef6                __divsf3x
-                0x00002efc                __divsf3_pse
+                0x00002ecc       0xdc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x00002eec                __divsf3x
+                0x00002ef2                __divsf3_pse
  .text.avr-libc.fplib
-                0x00002fb2       0x5e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
-                0x00002fb2                __fixunssfsi
+                0x00002fa8       0x5e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x00002fa8                __fixunssfsi
  .text.avr-libc.fplib
-                0x00003010        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
-                0x00003010                __fp_inf
+                0x00003006        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x00003006                __fp_inf
  .text.avr-libc.fplib
-                0x0000301c        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
-                0x0000301c                __fp_nan
+                0x00003012        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x00003012                __fp_nan
  .text.avr-libc.fplib
-                0x00003022        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
-                0x00003022                __fp_pscA
+                0x00003018        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x00003018                __fp_pscA
  .text.avr-libc.fplib
-                0x00003030        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
-                0x00003030                __fp_pscB
+                0x00003026        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x00003026                __fp_pscB
  .text.avr-libc.fplib
-                0x0000303e       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
-                0x0000303e                __fp_round
+                0x00003034       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x00003034                __fp_round
  .text.avr-libc.fplib
-                0x00003060       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
-                0x00003060                __fp_split3
-                0x00003070                __fp_splitA
+                0x00003056       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x00003056                __fp_split3
+                0x00003066                __fp_splitA
  .text.avr-libc.fplib
-                0x000030a4        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
-                0x000030a4                __fp_zero
-                0x000030a6                __fp_szero
+                0x0000309a        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x0000309a                __fp_zero
+                0x0000309c                __fp_szero
  .text.avr-libc.fplib
-                0x000030b2        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
-                0x000030b2                __mulsf3
+                0x000030a8        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x000030a8                __mulsf3
  .text.avr-libc.fplib
-                0x000030ba       0xd2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
-                0x000030d8                __mulsf3x
-                0x000030de                __mulsf3_pse
+                0x000030b0       0xd2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x000030ce                __mulsf3x
+                0x000030d4                __mulsf3_pse
  .text.libgcc.div
-                0x0000318c       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x0000318c                __udivmodsi4
+                0x00003182       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00003182                __udivmodsi4
  .text.libgcc.div
-                0x000031d0       0x2e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
-                0x000031d0                __divmodsi4
+                0x000031c6       0x2e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+                0x000031c6                __divmodsi4
  .text.libgcc.div
-                0x000031fe       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
-                0x000031fe                __negsi2
- .text.libgcc   0x0000320e        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
-                0x0000320e                __tablejump2__
+                0x000031f4       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+                0x000031f4                __negsi2
+ .text.libgcc   0x00003204        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x00003204                __tablejump2__
  .text.libgcc.mul
-                0x0000321a       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
-                0x0000321a                __muluhisi3
+                0x00003210       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00003210                __muluhisi3
  .text.libgcc.mul
-                0x00003230       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
-                0x00003230                __umulhisi3
+                0x00003226       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00003226                __umulhisi3
  .text.avr-libc
-                0x0000324e      0x242 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x0000324e                malloc
-                0x0000337e                free
+                0x00003244      0x242 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00003244                malloc
+                0x00003374                free
  .text.avr-libc
-                0x00003490      0x144 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(random.o)
-                0x00003490                random_r
-                0x00003526                random
-                0x000035c2                srandom
+                0x00003486      0x144 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(random.o)
+                0x00003486                random_r
+                0x0000351c                random
+                0x000035b8                srandom
  .text.avr-libc
-                0x000035d4      0x18c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
-                0x000035d4                realloc
+                0x000035ca      0x18c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
+                0x000035ca                realloc
  .text.avr-libc
-                0x00003760        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
-                0x00003760                abort
+                0x00003756        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+                0x00003756                abort
  .text.avr-libc
-                0x0000376a       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
-                0x0000376a                memcpy_P
+                0x00003760       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+                0x00003760                memcpy_P
  .text.avr-libc
-                0x0000377c       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
-                0x0000377c                memcpy
+                0x00003772       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                0x00003772                memcpy
  .text.avr-libc
-                0x0000378e        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
-                0x0000378e                strcpy
+                0x00003784        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+                0x00003784                memset
  .text.avr-libc
-                0x0000379c       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncpy.o)
-                0x0000379c                strncpy
+                0x00003792        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                0x00003792                strcpy
+ .text.avr-libc
+                0x000037a0       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncpy.o)
+                0x000037a0                strncpy
  .text.libgcc.mul
-                0x000037ba       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulshisi3.o)
-                0x000037ba                __mulshisi3
-                0x000037c0                __mulohisi3
+                0x000037be       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulshisi3.o)
+                0x000037be                __mulshisi3
+                0x000037c4                __mulohisi3
  .text.libgcc.prologue
-                0x000037ca       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
-                0x000037ca                __prologue_saves__
+                0x000037ce       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                0x000037ce                __prologue_saves__
  .text.libgcc.prologue
-                0x00003802       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
-                0x00003802                __epilogue_restores__
-                0x00003838                . = ALIGN (0x2)
+                0x00003806       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                0x00003806                __epilogue_restores__
+                0x0000383c                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00003838        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
-                0x00003838                _exit
-                0x00003838                exit
+ .fini9         0x0000383c        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x0000383c                _exit
+                0x0000383c                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
  *(.fini7)
  *(.fini7)
  *(.fini6)
- .fini6         0x00003838       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_dtors.o)
-                0x00003838                __do_global_dtors
+ .fini6         0x0000383c       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_dtors.o)
+                0x0000383c                __do_global_dtors
  *(.fini6)
  *(.fini5)
  *(.fini5)
@@ -1981,11 +1932,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000384e        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x00003852        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00003852                _etext = .
+                0x00003856                _etext = .
 
-.data           0x00800100      0x206 load address 0x00003852
+.data           0x00800100      0x1dc load address 0x00003856
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
@@ -1994,133 +1945,141 @@ END GROUP
                 0x00800104                __malloc_margin
  .data          0x00800106        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(random.o)
  *(.data*)
+ .data.rec_buf_len
+                0x0080010a        0x1 main.o
+                0x0080010a                rec_buf_len
  .data._initEndpoints
-                0x0080010a        0x7 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x0080010a                _initEndpoints
+                0x0080010b        0x7 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0080010b                _initEndpoints
  .data._ZL10breakValue
-                0x00800111        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00800112        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
  .data._ZL12_usbLineInfo
-                0x00800115        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
- .data.intFunc  0x0080011d        0xa C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00800116        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .data.intFunc  0x0080011e        0xa C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
  *(.gnu.linkonce.d*)
  *(.rodata)
- .rodata        0x00800127       0x10 main.o
+ .rodata        0x00800128       0x10 main.o
  *(.rodata*)
  .rodata.str1.1
-                0x00800137       0xb4 main.o
-                                 0xb5 (size before relaxing)
+                0x00800138       0x88 main.o
+                                 0x89 (size before relaxing)
  .rodata._ZTV14HardwareSerial
-                0x008001eb       0x12 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x008001eb                _ZTV14HardwareSerial
+                0x008001c0       0x12 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x008001c0                _ZTV14HardwareSerial
  .rodata.str1.1
-                0x008001fd        0xf C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x008001d2        0xf C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .rodata._ZTV15RHGenericDriver
-                0x0080020c       0x3c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
-                0x0080020c                _ZTV15RHGenericDriver
+                0x008001e1       0x3c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x008001e1                _ZTV15RHGenericDriver
  .rodata._ZTV13RHHardwareSPI
-                0x00800248       0x1a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
-                0x00800248                _ZTV13RHHardwareSPI
+                0x0080021d       0x1a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+                0x0080021d                _ZTV13RHHardwareSPI
  .rodata._ZTV7RH_RF69
-                0x00800262       0x3c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x00800262                _ZTV7RH_RF69
+                0x00800237       0x3c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00800237                _ZTV7RH_RF69
  .rodata._ZTV7Serial_
-                0x0080029e       0x12 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x0080029e                _ZTV7Serial_
+                0x00800273       0x12 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00800273                _ZTV7Serial_
  .rodata._ZTV12RHGenericSPI
-                0x008002b0       0x1a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
-                0x008002b0                _ZTV12RHGenericSPI
+                0x00800285       0x1a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+                0x00800285                _ZTV12RHGenericSPI
  .rodata._ZTV11RHSPIDriver
-                0x008002ca       0x3c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
-                0x008002ca                _ZTV11RHSPIDriver
+                0x0080029f       0x3c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
+                0x0080029f                _ZTV11RHSPIDriver
  *(.gnu.linkonce.r*)
-                0x00800306                . = ALIGN (0x2)
-                0x00800306                _edata = .
-                0x00800306                PROVIDE (__data_end, .)
+                0x008002dc                . = ALIGN (0x2)
+ *fill*         0x008002db        0x1 
+                0x008002dc                _edata = .
+                0x008002dc                PROVIDE (__data_end, .)
 
-.bss            0x00800306      0x18c
-                0x00800306                PROVIDE (__bss_start, .)
+.bss            0x008002dc      0x206
+                0x008002dc                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
+ .bss.rfdata    0x008002dc       0x3d main.o
+                0x008002dc                rfdata
+ .bss.rec_buf   0x00800319       0x3d main.o
+                0x00800319                rec_buf
  .bss.serial_input
-                0x00800306        0x6 main.o
-                0x00800306                serial_input
- .bss.rf69      0x0080030c       0x63 main.o
-                0x0080030c                rf69
- .bss.Serial1   0x0080036f       0x9d C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
-                0x0080036f                Serial1
+                0x00800356        0x6 main.o
+                0x00800356                serial_input
+ .bss.rf69      0x0080035c       0x63 main.o
+                0x0080035c                rf69
+ .bss.Serial1   0x008003bf       0x9d C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
+                0x008003bf                Serial1
  .bss.USBDevice
-                0x0080040c        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x0080040c                USBDevice
+                0x0080045c        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0080045c                USBDevice
  .bss._ZL5_cend
-                0x0080040d        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0080045d        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .bss._ZL6_cmark
-                0x0080040f        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0080045f        0x2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .bss._usbSuspendState
-                0x00800411        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00800411                _usbSuspendState
+                0x00800461        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00800461                _usbSuspendState
  .bss._usbCurrentStatus
-                0x00800412        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00800412                _usbCurrentStatus
+                0x00800462        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00800462                _usbCurrentStatus
  .bss._usbConfiguration
-                0x00800413        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00800413                _usbConfiguration
+                0x00800463        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00800463                _usbConfiguration
  .bss.RxLEDPulse
-                0x00800414        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00800414                RxLEDPulse
+                0x00800464        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00800464                RxLEDPulse
  .bss.TxLEDPulse
-                0x00800415        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00800415                TxLEDPulse
+                0x00800465        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00800465                TxLEDPulse
  .bss.timer0_fract
-                0x00800416        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00800466        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
  .bss.timer0_millis
-                0x00800417        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00800417                timer0_millis
+                0x00800467        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00800467                timer0_millis
  .bss.timer0_overflow_count
-                0x0080041b        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x0080041b                timer0_overflow_count
+                0x0080046b        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x0080046b                timer0_overflow_count
  .bss.hardware_spi
-                0x0080041f        0x7 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
-                0x0080041f                hardware_spi
+                0x0080046f        0x7 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+                0x0080046f                hardware_spi
  .bss._ZN7RH_RF6915_interruptCountE
-                0x00800426        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x00800426                _ZN7RH_RF6915_interruptCountE
+                0x00800476        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00800476                _ZN7RH_RF6915_interruptCountE
  .bss._ZN7RH_RF6919_deviceForInterruptE
-                0x00800427        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
-                0x00800427                _ZN7RH_RF6919_deviceForInterruptE
+                0x00800477        0x6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00800477                _ZN7RH_RF6919_deviceForInterruptE
  .bss._ZN8SPIClass13interruptSaveE
-                0x0080042d        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
-                0x0080042d                _ZN8SPIClass13interruptSaveE
+                0x0080047d        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                0x0080047d                _ZN8SPIClass13interruptSaveE
  .bss._ZN8SPIClass13interruptMaskE
-                0x0080042e        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
-                0x0080042e                _ZN8SPIClass13interruptMaskE
+                0x0080047e        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                0x0080047e                _ZN8SPIClass13interruptMaskE
  .bss._ZN8SPIClass13interruptModeE
-                0x0080042f        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
-                0x0080042f                _ZN8SPIClass13interruptModeE
+                0x0080047f        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                0x0080047f                _ZN8SPIClass13interruptModeE
  .bss._ZN8SPIClass11initializedE
-                0x00800430        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
-                0x00800430                _ZN8SPIClass11initializedE
- .bss.Serial    0x00800431       0x50 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x00800431                Serial
+                0x00800480        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                0x00800480                _ZN8SPIClass11initializedE
+ .bss.Serial    0x00800481       0x50 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00800481                Serial
  .bss._ZL11wdtcsr_save
-                0x00800481        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x008004d1        0x1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
  .bss._ZZ12PluggableUSBvE3obj
-                0x00800482        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x008004d2        0x4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
  .bss._ZGVZ12PluggableUSBvE3obj
-                0x00800486        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x008004d6        0x8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
  *(COMMON)
- COMMON         0x0080048e        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x0080048e                __brkval
-                0x00800490                __flp
-                0x00800492                PROVIDE (__bss_end, .)
-                0x00003852                __data_load_start = LOADADDR (.data)
-                0x00003a58                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x008004de        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x008004de                __brkval
+                0x008004e0                __flp
+                0x008004e2                PROVIDE (__bss_end, .)
+                0x00003856                __data_load_start = LOADADDR (.data)
+                0x00003a32                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800492        0x0
+.noinit         0x008004e2        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x00800492                _end = .
-                0x00800492                PROVIDE (__heap_start, .)
+                0x008004e2                _end = .
+                0x008004e2                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -2207,219 +2166,219 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0xb98
+.debug_aranges  0x00000000      0xb80
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x58 main.o
+                0x00000000       0x40 main.o
  .debug_aranges
-                0x00000058       0x68 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000040       0x68 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
  .debug_aranges
-                0x000000c0       0x48 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
+                0x000000a8       0x48 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
  .debug_aranges
-                0x00000108       0x30 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x000000f0       0x30 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
  .debug_aranges
-                0x00000138      0x100 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000120      0x100 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .debug_aranges
-                0x00000238       0xe0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00000220       0xe0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .debug_aranges
-                0x00000318       0x48 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00000300       0x48 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
  .debug_aranges
-                0x00000360       0x38 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000348       0x38 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
  .debug_aranges
-                0x00000398      0x2b8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000380      0x2b8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .debug_aranges
-                0x00000650       0xe8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+                0x00000638       0xe8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
  .debug_aranges
-                0x00000738       0x68 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+                0x00000720       0x68 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
  .debug_aranges
-                0x000007a0      0x100 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+                0x00000788      0x100 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
  .debug_aranges
-                0x000008a0       0x38 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                0x00000888       0x38 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
  .debug_aranges
-                0x000008d8       0x20 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+                0x000008c0       0x20 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
  .debug_aranges
-                0x000008f8       0xd8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x000008e0       0xd8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
  .debug_aranges
-                0x000009d0       0x20 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                0x000009b8       0x20 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
  .debug_aranges
-                0x000009f0       0x50 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x000009d8       0x50 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
  .debug_aranges
-                0x00000a40       0x58 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x00000a28       0x58 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
  .debug_aranges
-                0x00000a98       0x48 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+                0x00000a80       0x48 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
  .debug_aranges
-                0x00000ae0       0x60 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+                0x00000ac8       0x60 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
  .debug_aranges
-                0x00000b40       0x58 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
+                0x00000b28       0x58 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000    0x1843e
+.debug_info     0x00000000    0x17b85
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x9f4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
- .debug_info    0x000009f4     0x24ce main.o
- .debug_info    0x00002ec2     0x1f92 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_info    0x00004e54     0x1b44 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
- .debug_info    0x00006998      0x35a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_info    0x00006cf2     0x292d C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_info    0x0000961f     0x1a3a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
- .debug_info    0x0000b059      0x2f9 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_info    0x0000b352      0x633 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_info    0x0000b985     0x4338 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_info    0x0000fcbd     0x1038 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
- .debug_info    0x00010cf5      0xc1f C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
- .debug_info    0x00011914     0x1db3 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
- .debug_info    0x000136c7      0x699 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
- .debug_info    0x00013d60       0x76 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_info    0x00013dd6     0x29f0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
- .debug_info    0x000167c6       0x3e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_info    0x00016804      0x79f C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
- .debug_info    0x00016fa3      0x28c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .debug_info    0x0001722f      0x230 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
- .debug_info    0x0001745f      0x6c4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
- .debug_info    0x00017b23      0x91b C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
+ .debug_info    0x000009f4     0x1c15 main.o
+ .debug_info    0x00002609     0x1f92 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_info    0x0000459b     0x1b44 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
+ .debug_info    0x000060df      0x35a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_info    0x00006439     0x292d C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_info    0x00008d66     0x1a3a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_info    0x0000a7a0      0x2f9 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_info    0x0000aa99      0x633 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_info    0x0000b0cc     0x4338 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_info    0x0000f404     0x1038 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+ .debug_info    0x0001043c      0xc1f C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+ .debug_info    0x0001105b     0x1db3 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+ .debug_info    0x00012e0e      0x699 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_info    0x000134a7       0x76 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_info    0x0001351d     0x29f0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_info    0x00015f0d       0x3e C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_info    0x00015f4b      0x79f C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_info    0x000166ea      0x28c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_info    0x00016976      0x230 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .debug_info    0x00016ba6      0x6c4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+ .debug_info    0x0001726a      0x91b C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
 
-.debug_abbrev   0x00000000     0x49ca
+.debug_abbrev   0x00000000     0x490e
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x96a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
- .debug_abbrev  0x0000096a      0x470 main.o
- .debug_abbrev  0x00000dda      0x4b7 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_abbrev  0x00001291      0x3ce C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
- .debug_abbrev  0x0000165f      0x19a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_abbrev  0x000017f9      0x47a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_abbrev  0x00001c73      0x5e0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
- .debug_abbrev  0x00002253      0x146 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_abbrev  0x00002399      0x15a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_abbrev  0x000024f3      0x4c2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_abbrev  0x000029b5      0x36b C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
- .debug_abbrev  0x00002d20      0x44b C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
- .debug_abbrev  0x0000316b      0x572 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
- .debug_abbrev  0x000036dd      0x283 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
- .debug_abbrev  0x00003960       0x6d C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_abbrev  0x000039cd      0x602 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
- .debug_abbrev  0x00003fcf       0x2a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_abbrev  0x00003ff9      0x2c5 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
- .debug_abbrev  0x000042be       0xed C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .debug_abbrev  0x000043ab      0x12b C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
- .debug_abbrev  0x000044d6      0x213 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
- .debug_abbrev  0x000046e9      0x2e1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
+ .debug_abbrev  0x0000096a      0x3b4 main.o
+ .debug_abbrev  0x00000d1e      0x4b7 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_abbrev  0x000011d5      0x3ce C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
+ .debug_abbrev  0x000015a3      0x19a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_abbrev  0x0000173d      0x47a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x00001bb7      0x5e0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_abbrev  0x00002197      0x146 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x000022dd      0x15a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_abbrev  0x00002437      0x4c2 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_abbrev  0x000028f9      0x36b C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+ .debug_abbrev  0x00002c64      0x44b C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+ .debug_abbrev  0x000030af      0x572 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+ .debug_abbrev  0x00003621      0x283 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_abbrev  0x000038a4       0x6d C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_abbrev  0x00003911      0x602 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_abbrev  0x00003f13       0x2a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_abbrev  0x00003f3d      0x2c5 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_abbrev  0x00004202       0xed C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_abbrev  0x000042ef      0x12b C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .debug_abbrev  0x0000441a      0x213 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+ .debug_abbrev  0x0000462d      0x2e1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
 
-.debug_line     0x00000000     0x6221
+.debug_line     0x00000000     0x6155
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x19a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
- .debug_line    0x0000019a      0x4af main.o
- .debug_line    0x00000649      0x4c4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_line    0x00000b0d      0x28c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
- .debug_line    0x00000d99      0x177 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_line    0x00000f10      0x685 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_line    0x00001595      0x9e7 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
- .debug_line    0x00001f7c      0x2bd C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_line    0x00002239      0x26a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_line    0x000024a3     0x1360 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_line    0x00003803      0x533 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
- .debug_line    0x00003d36      0x3ed C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
- .debug_line    0x00004123      0xaa0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
- .debug_line    0x00004bc3      0x2e3 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
- .debug_line    0x00004ea6       0xa9 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_line    0x00004f4f      0x68b C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
- .debug_line    0x000055da       0x41 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_line    0x0000561b      0x2de C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
- .debug_line    0x000058f9      0x240 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .debug_line    0x00005b39      0x143 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
- .debug_line    0x00005c7c      0x1da C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
- .debug_line    0x00005e56      0x3cb C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
+ .debug_line    0x0000019a      0x3e3 main.o
+ .debug_line    0x0000057d      0x4c4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_line    0x00000a41      0x28c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
+ .debug_line    0x00000ccd      0x177 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_line    0x00000e44      0x685 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_line    0x000014c9      0x9e7 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_line    0x00001eb0      0x2bd C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_line    0x0000216d      0x26a C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_line    0x000023d7     0x1360 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_line    0x00003737      0x533 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+ .debug_line    0x00003c6a      0x3ed C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+ .debug_line    0x00004057      0xaa0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+ .debug_line    0x00004af7      0x2e3 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_line    0x00004dda       0xa9 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_line    0x00004e83      0x68b C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_line    0x0000550e       0x41 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_line    0x0000554f      0x2de C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_line    0x0000582d      0x240 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_line    0x00005a6d      0x143 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .debug_line    0x00005bb0      0x1da C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+ .debug_line    0x00005d8a      0x3cb C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
 
-.debug_frame    0x00000000     0x2590
+.debug_frame    0x00000000     0x2514
  *(.debug_frame)
- .debug_frame   0x00000000      0x108 main.o
- .debug_frame   0x00000108      0x110 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_frame   0x00000218       0xe0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
- .debug_frame   0x000002f8       0x54 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_frame   0x0000034c      0x3ac C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_frame   0x000006f8      0x3ac C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
- .debug_frame   0x00000aa4       0xc4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_frame   0x00000b68       0x7c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_frame   0x00000be4      0xa60 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_frame   0x00001644      0x270 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
- .debug_frame   0x000018b4       0xcc C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
- .debug_frame   0x00001980      0x3b8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
- .debug_frame   0x00001d38       0x5c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
- .debug_frame   0x00001d94       0x34 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_frame   0x00001dc8      0x1d8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
- .debug_frame   0x00001fa0       0x24 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_frame   0x00001fc4       0xec C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
- .debug_frame   0x000020b0      0x1fc C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .debug_frame   0x000022ac       0xf4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
- .debug_frame   0x000023a0       0xa4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
- .debug_frame   0x00002444      0x14c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
+ .debug_frame   0x00000000       0x8c main.o
+ .debug_frame   0x0000008c      0x110 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_frame   0x0000019c       0xe0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
+ .debug_frame   0x0000027c       0x54 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_frame   0x000002d0      0x3ac C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_frame   0x0000067c      0x3ac C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_frame   0x00000a28       0xc4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_frame   0x00000aec       0x7c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_frame   0x00000b68      0xa60 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_frame   0x000015c8      0x270 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+ .debug_frame   0x00001838       0xcc C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+ .debug_frame   0x00001904      0x3b8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+ .debug_frame   0x00001cbc       0x5c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_frame   0x00001d18       0x34 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_frame   0x00001d4c      0x1d8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_frame   0x00001f24       0x24 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_frame   0x00001f48       0xec C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_frame   0x00002034      0x1fc C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_frame   0x00002230       0xf4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .debug_frame   0x00002324       0xa4 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+ .debug_frame   0x000023c8      0x14c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
 
-.debug_str      0x00000000     0x4f2c
+.debug_str      0x00000000     0x4ee2
  *(.debug_str)
  .debug_str     0x00000000      0x371 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32u4/avr5/crtatmega32u4.o
- .debug_str     0x00000371     0x1523 main.o
-                               0x160e (size before relaxing)
- .debug_str     0x00001894      0x3e9 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_str     0x00000371     0x1097 main.o
+                               0x115f (size before relaxing)
+ .debug_str     0x00001408      0x7cb C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
                                0x1624 (size before relaxing)
- .debug_str     0x00001c7d       0x86 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
+ .debug_str     0x00001bd3       0x86 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
                                0x1416 (size before relaxing)
- .debug_str     0x00001d03      0x139 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_str     0x00001c59      0x139 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
                                 0x3c3 (size before relaxing)
- .debug_str     0x00001e3c      0x349 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_str     0x00001d92      0x371 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
                                0x124f (size before relaxing)
- .debug_str     0x00002185      0x80b C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_str     0x00002103      0x80b C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
                                 0xc83 (size before relaxing)
- .debug_str     0x00002990      0x15c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_str     0x0000290e      0x15c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
                                 0x257 (size before relaxing)
- .debug_str     0x00002aec       0xdc C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_str     0x00002a6a       0xdc C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                                 0x2d6 (size before relaxing)
- .debug_str     0x00002bc8      0x3f1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_str     0x00002b46      0x3f1 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
                                0x11a2 (size before relaxing)
- .debug_str     0x00002fb9      0x6d7 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+ .debug_str     0x00002f37      0x6f7 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
                                 0xabc (size before relaxing)
- .debug_str     0x00003690      0x651 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+ .debug_str     0x0000362e      0x651 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
                                 0x98f (size before relaxing)
- .debug_str     0x00003ce1      0x7af C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+ .debug_str     0x00003c7f      0x7c7 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
                                 0xe22 (size before relaxing)
- .debug_str     0x00004490       0x94 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_str     0x00004446       0x94 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
                                 0x6ba (size before relaxing)
- .debug_str     0x00004524       0x30 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_str     0x000044da       0x30 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
                                 0x1ab (size before relaxing)
- .debug_str     0x00004554      0x479 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_str     0x0000450a      0x479 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
                                0x1a36 (size before relaxing)
- .debug_str     0x000049cd       0x1c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_str     0x00004983       0x1c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
                                 0x14c (size before relaxing)
- .debug_str     0x000049e9       0x4c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_str     0x0000499f       0x4c C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
                                 0x5c8 (size before relaxing)
- .debug_str     0x00004a35       0x83 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_str     0x000049eb       0x83 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
                                 0x265 (size before relaxing)
- .debug_str     0x00004ab8       0xa7 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .debug_str     0x00004a6e       0xa7 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
                                 0x25a (size before relaxing)
- .debug_str     0x00004b5f      0x299 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+ .debug_str     0x00004b15      0x299 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
                                 0x6bd (size before relaxing)
- .debug_str     0x00004df8      0x134 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
+ .debug_str     0x00004dae      0x134 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
                                 0x50e (size before relaxing)
 
-.debug_loc      0x00000000     0xc0fd
+.debug_loc      0x00000000     0xbf84
  *(.debug_loc)
- .debug_loc     0x00000000      0x28f main.o
- .debug_loc     0x0000028f      0x4dc C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_loc     0x0000076b      0x1b0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
- .debug_loc     0x0000091b     0x1c87 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_loc     0x000025a2     0x1277 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
- .debug_loc     0x00003819      0x28d C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_loc     0x00003aa6      0x665 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_loc     0x0000410b     0x423d C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_loc     0x00008348      0x758 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
- .debug_loc     0x00008aa0      0x398 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
- .debug_loc     0x00008e38     0x1361 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
- .debug_loc     0x0000a199      0x22f C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
- .debug_loc     0x0000a3c8      0x790 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
- .debug_loc     0x0000ab58      0x445 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
- .debug_loc     0x0000af9d      0x57d C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .debug_loc     0x0000b51a      0x3d6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
- .debug_loc     0x0000b8f0       0x28 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
- .debug_loc     0x0000b918      0x7e5 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
+ .debug_loc     0x00000000      0x116 main.o
+ .debug_loc     0x00000116      0x4dc C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_loc     0x000005f2      0x1b0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
+ .debug_loc     0x000007a2     0x1c87 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_loc     0x00002429     0x1277 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_loc     0x000036a0      0x28d C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_loc     0x0000392d      0x665 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_loc     0x00003f92     0x423d C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_loc     0x000081cf      0x758 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+ .debug_loc     0x00008927      0x398 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+ .debug_loc     0x00008cbf     0x1361 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+ .debug_loc     0x0000a020      0x22f C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_loc     0x0000a24f      0x790 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_loc     0x0000a9df      0x445 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_loc     0x0000ae24      0x57d C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_loc     0x0000b3a1      0x3d6 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .debug_loc     0x0000b777       0x28 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+ .debug_loc     0x0000b79f      0x7e5 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -2439,29 +2398,29 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000      0xc68
+.debug_ranges   0x00000000      0xc30
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x80 main.o
- .debug_ranges  0x00000080       0x58 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_ranges  0x000000d8       0x38 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
- .debug_ranges  0x00000110       0x20 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_ranges  0x00000130      0x120 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_ranges  0x00000250      0x1c0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
- .debug_ranges  0x00000410       0x38 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_ranges  0x00000448       0x28 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_ranges  0x00000470      0x2f8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_ranges  0x00000768       0xf0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
- .debug_ranges  0x00000858       0x58 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
- .debug_ranges  0x000008b0      0x120 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
- .debug_ranges  0x000009d0       0x28 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
- .debug_ranges  0x000009f8       0x10 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_ranges  0x00000a08       0xe0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
- .debug_ranges  0x00000ae8       0x10 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_ranges  0x00000af8       0x58 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
- .debug_ranges  0x00000b50       0x48 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .debug_ranges  0x00000b98       0x38 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
- .debug_ranges  0x00000bd0       0x50 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
- .debug_ranges  0x00000c20       0x48 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
+ .debug_ranges  0x00000000       0x48 main.o
+ .debug_ranges  0x00000048       0x58 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_ranges  0x000000a0       0x38 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial1.o)
+ .debug_ranges  0x000000d8       0x20 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_ranges  0x000000f8      0x120 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_ranges  0x00000218      0x1c0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_ranges  0x000003d8       0x38 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_ranges  0x00000410       0x28 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_ranges  0x00000438      0x2f8 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_ranges  0x00000730       0xf0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericDriver.o)
+ .debug_ranges  0x00000820       0x58 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHHardwareSPI.o)
+ .debug_ranges  0x00000878      0x120 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RH_RF69.o)
+ .debug_ranges  0x00000998       0x28 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_ranges  0x000009c0       0x10 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_ranges  0x000009d0       0xe0 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_ranges  0x00000ab0       0x10 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_ranges  0x00000ac0       0x58 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_ranges  0x00000b18       0x48 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_ranges  0x00000b60       0x38 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .debug_ranges  0x00000b98       0x50 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHGenericSPI.o)
+ .debug_ranges  0x00000be8       0x48 C:\Users\Jose\Documents\rpk2\firmwares\leoencchat\ArduinoSketch1\ArduinoSketch1\ArduinoCore\Debug\libArduinoCore.a(RHSPIDriver.o)
 
 .debug_macro
  *(.debug_macro)

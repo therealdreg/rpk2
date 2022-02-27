@@ -18,8 +18,10 @@
 
 #define RF69_FREQ 434.0
 
-String serial_input = "";       // hold serial input
-bool serial_eol = false;        // whether eol was found
+String serial_input = "";       // Hold serial input
+uint8_t rec_buf[RH_RF69_MAX_MESSAGE_LEN + 1] = { 0 }; // Received data through RF
+uint8_t rec_buf_len = sizeof(rec_buf);
+char rfdata[RH_RF69_MAX_MESSAGE_LEN + 1] = { 0 }; // Data to be sent through RF
 
 // Singleton instance of the radio driver
 RH_RF69 rf69(RFM69_CS, RFM69_INT);
@@ -67,23 +69,7 @@ void setup()
   Serial.print("RFM69 radio @");  Serial.print((int)RF69_FREQ);  Serial.println(" MHz");
 }
 
-
-void serial_to_rf() {
-  // Read data from serial
-  String data = Serial.readString();
-  
-  // Send a message!
-
-  
-  // Send own data through serial
-  Serial.print("Feather: "); Serial.println(data);
-}
-
 void loop() {
-  uint8_t rec_buf[RH_RF69_MAX_MESSAGE_LEN + 1] = { 0 };
-  uint8_t len = sizeof(rec_buf);
-  char rfdata[RH_RF69_MAX_MESSAGE_LEN + 1] = { 0 };
-
   // Check if there is any character to read
   while (Serial.available()) {
 
@@ -107,8 +93,8 @@ void loop() {
   }
 
   // Check if there is anything to receive
-  if (rf69.recv(rec_buf, &len)) {
-    if (!len) return;
+  if (rf69.recv(rec_buf, &rec_buf_len)) {
+    if (!rec_buf_len) return;
     Serial.print("Leo: "); Serial.println((char*)rec_buf);
     memset(rec_buf,0,sizeof(rec_buf));
   }
