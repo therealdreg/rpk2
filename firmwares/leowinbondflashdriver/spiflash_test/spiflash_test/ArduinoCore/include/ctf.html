@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- head definitions go here -->
+    </head>
+    <body>
+        <iframe id="evilFrame" height="300" width="300" src="https://sustenance.web.actf.co/q?q=the+quick+brown+fox+jumps+over+the+lazy+dog"><iframe>
+        <script>
+            const evilFrame = document.getElementById("evilFrame");
+            evilFrame.addEventListener('onload', e => {
+                console.log(evilFrame.contentWindow.document.body.innerHTML);
+            }, true)
+            console.log(evilFrame);
+            console.log("aa");
+
+
+        </script>
+    </body>
+</html>
